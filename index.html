@@ -63,7 +63,7 @@
       if(post.title){
         const groupTabs=Array.isArray(post.matchedGroups)?post.matchedGroups.map(g=>GROUP_TO_TAB[g]).filter(Boolean):[];
         const tabs=[...new Set(['all', ...groupTabs])];
-        if(i<100) tabs.push('top100');
+      if (Number(post.likes || 0) >= 100) tabs.push('top100');
         const comments=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','')||0;
         return {
           ...post,
@@ -81,7 +81,20 @@
       const cached=localStorage.getItem(cacheKey(url)); if(cached){try{return {...JSON.parse(cached),id:i+1}}catch(e){}}
       const html=await fetchText(url); const meta=extractMetaFromHtml(url,html); meta.id=i+1; localStorage.setItem(cacheKey(url),JSON.stringify(meta)); return meta;
     }
-    function getPostsByTab(id){const items=rawData.items||[]; if(id==='top100') return items.filter(p=>p.tabs?.includes('top100')).slice(0,100); return items.filter(p=>Array.isArray(p.tabs)&&p.tabs.includes(id));}
+    function getPostsByTab(id){
+  const items = rawData.items || [];
+
+  // 추천수 100 이상만 TOP100
+  if(id === 'top100') {
+    return items
+      .filter(p => Number(p.likes || 0) >= 100)
+      .sort((a, b) => Number(a.timestamp || 0) - Number(b.timestamp || 0));
+  }
+
+  return items.filter(
+    p => Array.isArray(p.tabs) && p.tabs.includes(id)
+  );
+}
     function getVisiblePosts(){const q=searchText.trim().toLowerCase(); return getPostsByTab(activeTab).filter(p=>!q||String(p.title||'').toLowerCase().includes(q)).sort((a,b)=> activeTab==='top100'?Number(a.timestamp||0)-Number(b.timestamp||0):Number(a.timestamp||0)-Number(b.timestamp||0));}
     function renderTabs(){const el=$('#tabs'); el.innerHTML=DEFAULT_TABS.map(t=>`<button class="tab ${t.id===activeTab?'active':''}" data-tab="${t.id}">${esc(t.name)}</button>`).join(''); el.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});}
     function renderList(){const posts=getVisiblePosts(); const name=DEFAULT_TABS.find(t=>t.id===activeTab)?.name||'전체'; $('#status').textContent=`${name} · ${posts.length.toLocaleString('ko-KR')}건`; if(!posts.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;} $('#list').innerHTML=posts.map((p,i)=>`<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span class="metric">🕒 ${esc(p.date||'-')}</span><span class="metric">👍 ${fmt(p.likes)}</span><span class="metric">💬 ${fmt(p.comments)}</span><span class="metric">👁 ${fmt(p.views)}</span></div></div><div class="badge-zone">${Number(p.likes||0)>=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`).join('');}
