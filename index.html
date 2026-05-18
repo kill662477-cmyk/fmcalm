@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>그것이 알고싶캄몬</title>
   <style>
-    :root{--bg:#030406;--panel:rgba(10,11,14,.86);--panel2:rgba(18,19,24,.95);--line:rgba(255,255,255,.13);--line2:rgba(255,255,255,.08);--text:#f4f4f5;--muted:#9b9da6;--red:#e31f2c;--red2:#ff3344;--blue:#9bb8ff;--shadow:0 22px 70px rgba(0,0,0,.72)}
+    :root{--bg:#030406;--panel:rgba(10,11,14,.86);--panel2:rgba(18,19,24,.94);--line:rgba(255,255,255,.14);--line2:rgba(255,255,255,.08);--text:#f4f4f5;--muted:#9b9da6;--red:#e31f2c;--red2:#ff3344;--blue:#9bb8ff;--shadow:0 22px 70px rgba(0,0,0,.72)}
     *{box-sizing:border-box} html,body{margin:0;min-height:100%;background:#020306;color:var(--text);font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     body{background:radial-gradient(circle at 12% 0%,rgba(138,0,18,.18),transparent 34%),radial-gradient(circle at 92% 12%,rgba(210,40,38,.08),transparent 35%),linear-gradient(180deg,#05060a 0%,#020306 100%)}
-    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;background:repeating-linear-gradient(0deg,rgba(255,255,255,.22) 0 1px,transparent 1px 4px);mix-blend-mode:screen}
-    a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 28px));margin:0 auto;padding:18px 0 42px}.hero{width:100%;margin:0 0 18px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#020306;box-shadow:var(--shadow)}.hero img{width:100%;height:auto;display:block;object-fit:cover}
-    .tabs-wrap{margin-top:18px;border:1px solid var(--line2);border-radius:18px;background:rgba(8,9,13,.72);box-shadow:0 14px 34px rgba(0,0,0,.35)}.tabs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px;padding:10px}.tab{min-width:0;border:1px solid rgba(255,255,255,.15);color:#e1e2e6;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.032));border-radius:999px;padding:12px 7px;font-size:13px;font-weight:950;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:inset 0 1px 0 rgba(255,255,255,.08);transition:.14s ease}.tab:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.28)}.tab.active{color:#fff;border-color:rgba(255,66,76,.95);background:linear-gradient(135deg,#e51f2d,#8d121d);box-shadow:0 10px 24px rgba(227,31,44,.28),inset 0 1px 0 rgba(255,255,255,.18)}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.09;background:repeating-linear-gradient(0deg,rgba(255,255,255,.22) 0 1px,transparent 1px 4px);mix-blend-mode:screen}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 28px));margin:0 auto;padding:18px 0 42px}.hero{width:100%;margin:0 0 18px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#020306;box-shadow:var(--shadow)}.hero img{width:100%;height:auto;display:block;object-fit:cover}
+    .tabs-wrap{margin-top:18px;padding:0;border:1px solid var(--line2);border-radius:18px;background:rgba(8,9,13,.72);box-shadow:0 14px 34px rgba(0,0,0,.35)}.tabs{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:9px;padding:10px;overflow:visible}.tab{min-width:0;border:1px solid rgba(255,255,255,.15);color:#e1e2e6;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.032));border-radius:999px;padding:12px 7px;font-size:13px;font-weight:950;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:inset 0 1px 0 rgba(255,255,255,.08);transition:.14s ease}.tab:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.28)}.tab.active{color:#fff;border-color:rgba(255,66,76,.95);background:linear-gradient(135deg,#e51f2d,#8d121d);box-shadow:0 10px 24px rgba(227,31,44,.28),inset 0 1px 0 rgba(255,255,255,.18)}
     .toolbar{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:16px 0}.search{width:100%;border:1px solid rgba(255,255,255,.15);border-radius:17px;padding:14px 16px;outline:none;color:var(--text);background:rgba(255,255,255,.055);font-size:14px;font-weight:800}.search::placeholder{color:rgba(230,234,245,.48)}.meta-status{white-space:nowrap;color:#bfc6da;font-size:13px;font-weight:900}
-    .list{display:grid;gap:11px}.post{position:relative;overflow:hidden;display:grid;grid-template-columns:74px 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid rgba(255,255,255,.11);border-radius:20px;background:linear-gradient(135deg,rgba(255,255,255,.065),rgba(255,255,255,.02)),var(--panel);box-shadow:0 12px 34px rgba(0,0,0,.22);transition:.14s ease}.post:hover{transform:translateY(-2px);border-color:rgba(231,51,63,.42);background:linear-gradient(135deg,rgba(231,51,63,.12),rgba(255,255,255,.025)),var(--panel2)}.case-no{width:62px;height:62px;border-radius:18px;display:grid;place-items:center;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.12);color:#ff5c66;font-weight:1000;letter-spacing:-.5px}.post-title{display:block;color:#fff;font-size:16px;line-height:1.42;font-weight:950;word-break:keep-all}.post-title:hover{text-decoration:underline;text-decoration-color:#ff5c66}.post-meta{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:12px;font-weight:850}.tag{display:inline-flex;align-items:center;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);padding:4px 8px;color:#d7dbe7}.badge-zone{display:flex;flex-direction:column;align-items:flex-end;gap:7px}.hot-badge{border-radius:999px;padding:7px 10px;color:#fff;background:rgba(231,51,63,.22);border:1px solid rgba(231,51,63,.48);font-size:12px;font-weight:1000}.open-badge{color:var(--blue);font-size:12px;font-weight:900}.empty{padding:40px 20px;text-align:center;border:1px dashed rgba(255,255,255,.16);border-radius:22px;color:var(--muted);background:rgba(255,255,255,.035);font-weight:850}.footer{margin-top:22px;text-align:center;color:rgba(220,225,238,.54);font-size:12px;font-weight:800}
-    @media(max-width:760px){.wrap{width:min(100% - 18px,1180px);padding-top:10px}.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.tab{font-size:12px;padding:9px 7px}.toolbar{grid-template-columns:1fr}.post{grid-template-columns:48px 1fr;padding:13px;border-radius:17px}.case-no{width:44px;height:44px;border-radius:13px;font-size:12px}.post-title{font-size:14px}.badge-zone{grid-column:2;align-items:flex-start;flex-direction:row}}
+    .admin{margin:0 0 14px;border:1px solid rgba(255,255,255,.11);border-radius:18px;background:rgba(255,255,255,.04);padding:13px;color:#bfc6da;font-size:13px;font-weight:800;line-height:1.55}.admin code{color:#fff;background:rgba(255,255,255,.08);border-radius:7px;padding:2px 6px}.admin .warn{color:#ff9ca3}
+    .list{display:grid;gap:11px}.post{position:relative;overflow:hidden;display:grid;grid-template-columns:74px 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid rgba(255,255,255,.11);border-radius:20px;background:linear-gradient(135deg,rgba(255,255,255,.065),rgba(255,255,255,.02)),var(--panel);box-shadow:0 12px 34px rgba(0,0,0,.22);transition:.14s ease}.post:hover{transform:translateY(-2px);border-color:rgba(231,51,63,.42);background:linear-gradient(135deg,rgba(231,51,63,.12),rgba(255,255,255,.025)),var(--panel2)}.case-no{width:62px;height:62px;border-radius:18px;display:grid;place-items:center;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.12);color:#ff5c66;font-weight:1000;letter-spacing:-.5px}.post-title{display:block;color:#fff;font-size:16px;line-height:1.42;font-weight:950;word-break:keep-all}.post-title:hover{text-decoration:underline;text-decoration-color:#ff5c66}.post-meta{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:12px;font-weight:850}.metric{display:inline-flex;align-items:center;gap:4px}.badge-zone{display:flex;flex-direction:column;align-items:flex-end;gap:7px}.hot-badge{border-radius:999px;padding:7px 10px;color:#fff;background:rgba(231,51,63,.22);border:1px solid rgba(231,51,63,.48);font-size:12px;font-weight:1000}.open-badge{color:var(--blue);font-size:12px;font-weight:900}.empty{padding:40px 20px;text-align:center;border:1px dashed rgba(255,255,255,.16);border-radius:22px;color:var(--muted);background:rgba(255,255,255,.035);font-weight:850}.footer{margin-top:22px;text-align:center;color:rgba(220,225,238,.54);font-size:12px;font-weight:800}
+    @media(max-width:760px){.wrap{width:min(100% - 18px,1120px);padding-top:10px}.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.tab{font-size:12px;padding:9px 7px}.toolbar{grid-template-columns:1fr}.post{grid-template-columns:48px 1fr;padding:13px;border-radius:17px}.case-no{width:44px;height:44px;border-radius:13px;font-size:12px}.post-title{font-size:14px}.badge-zone{grid-column:2;align-items:flex-start;flex-direction:row}}
   </style>
 </head>
 <body>
@@ -21,55 +22,47 @@
     <section class="hero"><img src="./assets/header.png" alt="그것이 알고싶캄몬 FMKOREA 스타크래프트 인기글 아카이브" /></section>
     <section class="tabs-wrap"><div class="tabs" id="tabs"></div></section>
     <section class="toolbar"><input class="search" id="search" placeholder="현재 탭에서 제목 검색" autocomplete="off" /><div class="meta-status" id="status">불러오는 중...</div></section>
+    <div class="admin">이 버전은 <code>data/posts.json</code>에 URL만 넣으면 됩니다. 예: <code>{"urls":["https://www.fmkorea.com/..."]}</code> 또는 그냥 <code>["url1","url2"]</code>. <span class="warn">원문 자동 읽기가 막히면 제목은 URL 번호로 임시 표시됩니다.</span></div>
     <section class="list" id="list"></section><div class="footer">그것이 알고싶캄몬 · FMKOREA 스타크래프트 인기글 아카이브</div>
   </main>
   <script>
     const DATA_URL='./data/posts.json?ts='+Date.now();
-    const TABS=[['all','전체'],['top100','탑100'],['캄몬스타즈','캄몬스타즈'],['김윤환','김윤환'],['코치진','코치진'],['토마토','토마토'],['지두두','지두두'],['햇살','햇살'],['찌킹','찌킹'],['소주양','소주양'],['치리','치리'],['주하랑','주하랑'],['임조이','임조이'],['비타밍','비타밍'],['아리송이','아리송이'],['먼진','먼진'],['진땅콩','진땅콩'],['낭니','낭니']];
-    let posts=[], activeTab='all', searchText='', updatedAt='';
-    const $=s=>document.querySelector(s);
-    const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
-    const fmtDate=v=>{if(!v)return '-'; const d=new Date(v); return Number.isNaN(d.getTime())?String(v):d.toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});};
-    function visible(){
-      const q=searchText.trim().toLowerCase();
-      let arr=posts.filter(p=>{
-        if(activeTab==='all') return true;
-        if(activeTab==='top100') return p.rank<=100;
-        return (p.matchedGroups||[]).includes(activeTab);
-      });
-      if(q) arr=arr.filter(p=>(p.title||'').toLowerCase().includes(q) || (p.matchedGroups||[]).join(' ').toLowerCase().includes(q));
-      return arr;
+    const DEFAULT_TABS=[{id:'all',name:'전체'},{id:'top100',name:'탑100'},{id:'cammonstars',name:'캄몬스타즈'},{id:'kimyunhwan',name:'김윤환'},{id:'coaches',name:'코치진'},{id:'tomato',name:'토마토'},{id:'jidudu',name:'지두두'},{id:'sunshine',name:'햇살'},{id:'jjiking',name:'찌킹'},{id:'soju',name:'소주양'},{id:'chiri',name:'치리'},{id:'juharang',name:'주하랑'},{id:'imjoy',name:'임조이'},{id:'vitaming',name:'비타밍'},{id:'arisong',name:'아리송이'},{id:'meonjin',name:'먼진'},{id:'peanut',name:'진땅콩'},{id:'nangni',name:'낭니'}];
+    const MEMBER_RULES=[['cammonstars',['캄몬','캄몬스타즈','몬스타즈','kammon','monstarz','calm']],['kimyunhwan',['김윤환','와치','센세']],['coaches',['코치','사테','다린','이경민']],['tomato',['토마토']],['jidudu',['지두두','두두','jidudu']],['sunshine',['햇살']],['jjiking',['찌킹']],['soju',['소주양','소주']],['chiri',['치리']],['juharang',['주하랑']],['imjoy',['임조이','조이']],['vitaming',['비타밍']],['arisong',['아리송이','아리']],['meonjin',['먼진']],['peanut',['진땅콩','땅콩']],['nangni',['낭니']]];
+    let rawData={tabs:DEFAULT_TABS,items:[]},activeTab='all',searchText='';
+    const $=s=>document.querySelector(s); const esc=v=>String(v||'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;'); const fmt=v=>{const n=Number(v||0);return Number.isFinite(n)?n.toLocaleString('ko-KR'):'0'};
+    function normalizeInput(json){ if(Array.isArray(json)) return json.map(u=>({url:String(u)})); if(Array.isArray(json.urls)) return json.urls.map(u=> typeof u==='string'?{url:u}:u); if(Array.isArray(json.items)) return json.items; return []; }
+    function cacheKey(url){return 'kammon_url_meta_v2:'+url}
+    async function fetchText(url){
+      const targets=[url,'https://r.jina.ai/http://r.jina.ai/http://'+url.replace(/^https?:\/\//,''),'https://r.jina.ai/http://'+url.replace(/^https?:\/\//,'')];
+      for(const target of targets){try{const r=await fetch(target,{cache:'no-store'}); if(r.ok){const t=await r.text(); if(t&&t.length>60) return t;}}catch(e){}}
+      return '';
     }
-    function countBy(tab){return posts.filter(p=>tab==='all'||(tab==='top100'?p.rank<=100:(p.matchedGroups||[]).includes(tab))).length;}
-    function renderTabs(){
-      $('#tabs').innerHTML=TABS.map(([id,name])=>`<button class="tab ${id===activeTab?'active':''}" data-tab="${esc(id)}">${esc(name)} ${countBy(id)}</button>`).join('');
-      document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});
+    function extractMetaFromHtml(url,html){
+      const text=String(html||''); const get=(re)=>{const m=text.match(re);return m?m[1].replace(/\s+/g,' ').trim():''};
+      let title=get(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)/i)||get(/<title[^>]*>([^<]+)/i)||get(/^Title:\s*(.+)$/im)||'';
+      title=title.replace(/\s*-\s*에펨코리아.*$/,'').replace(/\s*-\s*FMKOREA.*$/i,'').trim();
+      const desc=get(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i)||'';
+      const merged=(title+' '+desc+' '+url).toLowerCase();
+      let tabs=['all']; MEMBER_RULES.forEach(([id,keys])=>{if(keys.some(k=>merged.includes(k.toLowerCase()))) tabs.push(id)}); if(tabs.length===1) tabs.push('cammonstars');
+      const likes=Number((text.match(/(?:추천|like)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
+      const comments=Number((text.match(/(?:댓글|comment)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
+      const views=Number((text.match(/(?:조회|view)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
+      if(likes>=100) tabs.push('top100');
+      return {title:title||('FMKOREA 글 '+(url.match(/\/(\d+)(?:\?|$)/)||[])[1]||url),url,date:new Date().toLocaleString('ko-KR'),likes,comments,views,tabs:[...new Set(tabs)],timestamp:Date.now()};
     }
-    function renderList(){
-      const arr=visible(); const tabName=(TABS.find(t=>t[0]===activeTab)||['','전체'])[1];
-      $('#status').textContent=`${tabName} · ${arr.length.toLocaleString('ko-KR')}건 · 전체 ${posts.length.toLocaleString('ko-KR')}건`+(updatedAt?` · 갱신 ${fmtDate(updatedAt)}`:'');
-      if(!arr.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;}
-      $('#list').innerHTML=arr.map((p,i)=>{
-        const groups=(p.matchedGroups||[]).slice(0,5).map(g=>`<span class="tag">${esc(g)}</span>`).join('');
-        const kw=(p.matchedKeywords||[]).slice(0,4).join(', ');
-        return `<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span>수집 ${esc(fmtDate(p.collectedAt))}</span>${p.comments!==null&&p.comments!==undefined?`<span>💬 ${esc(p.comments)}</span>`:''}${groups}${kw?`<span class="tag">키워드 ${esc(kw)}</span>`:''}</div></div><div class="badge-zone">${p.rank<=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`;
-      }).join('');
+    async function enrichPost(post,i){
+      if(post.title && post.tabs) return {...post,id:i+1};
+      const url=String(post.url||post.link||post).trim();
+      const cached=localStorage.getItem(cacheKey(url)); if(cached){try{return {...JSON.parse(cached),id:i+1}}catch(e){}}
+      const html=await fetchText(url); const meta=extractMetaFromHtml(url,html); meta.id=i+1; localStorage.setItem(cacheKey(url),JSON.stringify(meta)); return meta;
     }
+    function getPostsByTab(id){const items=rawData.items||[]; if(id==='top100') return items.filter(p=>Number(p.likes||0)>=100||p.tabs?.includes('top100')).sort((a,b)=>Number(b.likes||0)-Number(a.likes||0)).slice(0,100); return items.filter(p=>Array.isArray(p.tabs)&&p.tabs.includes(id));}
+    function getVisiblePosts(){const q=searchText.trim().toLowerCase(); return getPostsByTab(activeTab).filter(p=>!q||String(p.title||'').toLowerCase().includes(q)).sort((a,b)=> activeTab==='top100'?Number(b.likes||0)-Number(a.likes||0):Number(b.timestamp||0)-Number(a.timestamp||0));}
+    function renderTabs(){const el=$('#tabs'); el.innerHTML=DEFAULT_TABS.map(t=>`<button class="tab ${t.id===activeTab?'active':''}" data-tab="${t.id}">${esc(t.name)}</button>`).join(''); el.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});}
+    function renderList(){const posts=getVisiblePosts(); const name=DEFAULT_TABS.find(t=>t.id===activeTab)?.name||'전체'; $('#status').textContent=`${name} · ${posts.length.toLocaleString('ko-KR')}건`; if(!posts.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;} $('#list').innerHTML=posts.map((p,i)=>`<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span class="metric">🕒 ${esc(p.date||'-')}</span><span class="metric">👍 ${fmt(p.likes)}</span><span class="metric">💬 ${fmt(p.comments)}</span><span class="metric">👁 ${fmt(p.views)}</span></div></div><div class="badge-zone">${Number(p.likes||0)>=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`).join('');}
     function render(){renderTabs();renderList();}
-    async function init(){
-      try{
-        const r=await fetch(DATA_URL,{cache:'no-store'}); if(!r.ok) throw new Error('posts.json 로드 실패');
-        const data=await r.json(); updatedAt=data.updatedAt||'';
-        const raw=Array.isArray(data)?data:(Array.isArray(data.items)?data.items:(Array.isArray(data.urls)&&data.urls[0]?.items?data.urls[0].items:[]));
-        const seen=new Set(); posts=[];
-        raw.forEach((p,idx)=>{ if(!p||!p.url||seen.has(p.url)) return; seen.add(p.url); posts.push({...p,rank:posts.length+1}); });
-        render();
-      }catch(e){
-        $('#status').textContent='로드 실패';
-        $('#list').innerHTML='<div class="empty">data/posts.json을 불러오지 못했습니다. GitHub/Vercel에서는 /data/posts.json 경로를 확인하세요. 로컬은 python -m http.server 8000 또는 Live Server로 열어야 합니다.</div>';
-        renderTabs();
-      }
-    }
+    async function init(){try{const r=await fetch(DATA_URL,{cache:'no-store'}); if(!r.ok) throw new Error('json fail'); const json=await r.json(); const base=normalizeInput(json); $('#status').textContent=`URL ${base.length}개 분석 중...`; const items=[]; for(let i=0;i<base.length;i++){ $('#status').textContent=`URL ${i+1}/${base.length} 분석 중...`; items.push(await enrichPost(base[i],i)); rawData={tabs:DEFAULT_TABS,items}; render(); } rawData={tabs:DEFAULT_TABS,items}; render();}catch(e){rawData={tabs:DEFAULT_TABS,items:[]}; renderTabs(); $('#status').textContent='로드 실패'; $('#list').innerHTML='<div class="empty">data/posts.json을 불러오지 못했습니다. 로컬은 Live Server 같은 서버로 열어주세요.</div>';}}
     $('#search').addEventListener('input',e=>{searchText=e.target.value;renderList();}); init();
   </script>
 </body>
