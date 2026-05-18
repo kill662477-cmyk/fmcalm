@@ -69,7 +69,7 @@
           ...post,
           id:i+1,
           url,
-          date:post.postedAtText || post.date || '',
+          date:post.postedText || post.displayTime || post.postedAtText || post.date || '',
           comments:Number(comments),
           likes:Number(post.likes||0),
           views:Number(post.views||0),
@@ -86,7 +86,7 @@
     function renderTabs(){const el=$('#tabs'); el.innerHTML=DEFAULT_TABS.map(t=>`<button class="tab ${t.id===activeTab?'active':''}" data-tab="${t.id}">${esc(t.name)}</button>`).join(''); el.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});}
     function renderList(){const posts=getVisiblePosts(); const name=DEFAULT_TABS.find(t=>t.id===activeTab)?.name||'전체'; $('#status').textContent=`${name} · ${posts.length.toLocaleString('ko-KR')}건`; if(!posts.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;} $('#list').innerHTML=posts.map((p,i)=>`<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span class="metric">🕒 ${esc(p.date||'-')}</span><span class="metric">👍 ${fmt(p.likes)}</span><span class="metric">💬 ${fmt(p.comments)}</span><span class="metric">👁 ${fmt(p.views)}</span></div></div><div class="badge-zone">${Number(p.likes||0)>=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`).join('');}
     function render(){renderTabs();renderList();}
-    async function init(){try{const r=await fetch(DATA_URL,{cache:'no-store'}); if(!r.ok) throw new Error('json fail'); const json=await r.json(); const base=normalizeInput(json); $('#status').textContent=`URL ${base.length}개 분석 중...`; const items=[]; for(let i=0;i<base.length;i++){ $('#status').textContent=`URL ${i+1}/${base.length} 분석 중...`; items.push(await enrichPost(base[i],i)); rawData={tabs:DEFAULT_TABS,items}; render(); } rawData={tabs:DEFAULT_TABS,items}; render();}catch(e){rawData={tabs:DEFAULT_TABS,items:[]}; renderTabs(); $('#status').textContent='로드 실패'; $('#list').innerHTML='<div class="empty">data/posts.json을 불러오지 못했습니다. 로컬은 Live Server 같은 서버로 열어주세요.</div>';}}
+    async function init(){try{const r=await fetch(DATA_URL,{cache:'no-store'}); if(!r.ok) throw new Error('json fail'); const json=await r.json(); const base=normalizeInput(json); $('#status').textContent=`${base.length}개 불러오는 중...`; const items=[]; for(let i=0;i<base.length;i++){ $('#status').textContent=`${i+1}/${base.length} 불러오는 중...`; items.push(await enrichPost(base[i],i)); rawData={tabs:DEFAULT_TABS,items}; render(); } rawData={tabs:DEFAULT_TABS,items}; render();}catch(e){rawData={tabs:DEFAULT_TABS,items:[]}; renderTabs(); $('#status').textContent='로드 실패'; $('#list').innerHTML='<div class="empty">data/posts.json을 불러오지 못했습니다. 로컬은 Live Server 같은 서버로 열어주세요.</div>';}}
     $('#search').addEventListener('input',e=>{searchText=e.target.value;renderList();}); init();
   </script>
 </body>
