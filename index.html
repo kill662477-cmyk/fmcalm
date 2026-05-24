@@ -5,6 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>그것이 알고싶캄몬</title>
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 <style>
     :root{--bg:#030406;--panel:rgba(10,11,14,.86);--panel2:rgba(18,19,24,.94);--line:rgba(255,255,255,.14);--line2:rgba(255,255,255,.08);--text:#f4f4f5;--muted:#9b9da6;--red:#e31f2c;--red2:#ff3344;--blue:#9bb8ff;--shadow:0 22px 70px rgba(0,0,0,.72)}
     *{box-sizing:border-box} html,body{margin:0;min-height:100%;background:#020306;color:var(--text);font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
@@ -53,7 +54,7 @@
     const DATA_URL='./data/posts.json?ts='+Date.now();
     const DEFAULT_TABS=[{id:'all',name:'전체'},{id:'top100',name:'탑100'},{id:'cammonstars',name:'캄몬스타즈'},{id:'kimyunhwan',name:'김윤환'},{id:'coaches',name:'코치진'},{id:'tomato',name:'토마토'},{id:'jidudu',name:'지두두'},{id:'sunshine',name:'햇살'},{id:'jjiking',name:'찌킹'},{id:'soju',name:'소주양'},{id:'chiri',name:'치리'},{id:'juharang',name:'주하랑'},{id:'imjoy',name:'임조이'},{id:'vitaming',name:'비타밍'},{id:'arisong',name:'아리송이'},{id:'meonjin',name:'먼진'},{id:'peanut',name:'진땅콩'},{id:'nangni',name:'낭니'}];
     const MEMBER_RULES=[['cammonstars',['캄몬','캄몬스타즈','몬스타즈','kammon','monstarz','calm']],['kimyunhwan',['김윤환','와치','센세']],['coaches',['코치','사테','다린','이경민']],['tomato',['토마토']],['jidudu',['지두두','두두','jidudu']],['sunshine',['햇살']],['jjiking',['찌킹']],['soju',['소주양','소주']],['chiri',['치리']],['juharang',['주하랑']],['imjoy',['임조이','조이']],['vitaming',['비타밍']],['arisong',['아리송이','아리']],['meonjin',['먼진']],['peanut',['진땅콩','땅콩']],['nangni',['낭니']]];
-    const GROUP_TO_TAB={'캄몬스타즈':'cammonstars','김윤환':'kimyunhwan','코치진':'coaches','토마토':'tomato','지두두':'jidudu','햇살':'sunshine','찌킹':'jjiking','소주양':'soju','치리':'chiri','주하랑':'juharang','임조이':'imjoy','비타밍':'vitaming','아리송이':'arisong','먼진':'meonjin','진땅콩':'peanut','낭니':'nangni'};
+    const GROUP_TO_TAB={'캄몬스타즈':'cammonstars','김윤환':'kimyunhwan','코치진':'coaches','토마토':'tomato','지두두':'jidudu','햇살':'sunshine','찌킹':'jjiking','소주양':'soju','치리':'chiri','주하랑':'juharang','임조이':'imjoy','비타밍':'vitaming','아리송이':'arisong','먼진':'meonjin','진땅콩':'peanut','낭���':'nangni'};
     let rawData={tabs:DEFAULT_TABS,items:[]},activeTab='all',searchText='';
     const $=s=>document.querySelector(s); const esc=v=>String(v||'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;'); const fmt=v=>{const n=Number(v||0);return Number.isFinite(n)?n.toLocaleString('ko-KR'):'0'};
     function normalizeInput(json){
