@@ -2,53 +2,7 @@
   "updatedAt": "2026-06-02T20:33:43.058+09:00",
   "count": 220,
   "items": [
-    {
-      "collectedAt": "2026-06-02T20:33:19.310+09:00",
-      "comments": 16,
-      "displayTime": "20:33",
-      "likes": 17,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "먼진"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "먼진"
-      ],
-      "order": 178,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postDateKst": "2026-06-02",
-      "postedText": "20:33",
-      "source": "fmkorea",
-      "sourceOrder": 0,
-      "title": "캄몬 먼진 공지 [16]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9904285093&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-02T20:33:19.311+09:00",
-      "comments": 23,
-      "displayTime": "20:15",
-      "likes": 84,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 202,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postDateKst": "2026-06-02",
-      "postedText": "20:15",
-      "source": "fmkorea",
-      "sourceOrder": 1,
-      "title": "김윤환 : 공지 - 오늘방송 준비한 철구 너무고생햇네요 [23]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9904194580&listStyle=webzine",
-      "views": 0
-    },
+   
     {
       "collectedAt": "2026-06-02T20:33:19.311+09:00",
       "comments": 19,
