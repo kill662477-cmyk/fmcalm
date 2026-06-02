@@ -51,11 +51,31 @@
 </main>
 <script>
     const DATA_URL='./data/posts.json?ts='+Date.now();
-    const DEFAULT_TABS=[{id:'all',name:'전체'},{id:'top100',name:'탑100'},{id:'cammonstars',name:'캄몬스타즈'},{id:'kimyunhwan',name:'김윤환'},{id:'coaches',name:'코치진'},{id:'tomato',name:'토마토'},{id:'jidudu',name:'지두두'},{id:'sunshine',name:'햇살'},{id:'jjiking',name:'찌킹'},{id:'soju',name:'소주양'},{id:'chiri',name:'치리'},{id:'juharang',name:'주하랑'},{id:'imjoy',name:'임조이'},{id:'vitaming',name:'비타밍'},{id:'arisong',name:'아리송이'},{id:'meonjin',name:'먼진'},{id:'peanut',name:'진땅콩'},{id:'nangni',name:'낭니'}];
-    const MEMBER_RULES=[['cammonstars',['캄몬','캄몬스타즈','몬스타즈','kammon','monstarz','calm']],['kimyunhwan',['김윤환','와치','센세']],['coaches',['코치','사테','다린','이경민']],['tomato',['토마토']],['jidudu',['지두두','두두','jidudu']],['sunshine',['햇살']],['jjiking',['찌킹']],['soju',['소주양','소주']],['chiri',['치리']],['juharang',['주하랑']],['imjoy',['임조이','조이']],['vitaming',['비타밍']],['arisong',['아리송이','아리']],['meonjin',['먼진']],['peanut',['진땅콩','땅콩']],['nangni',['낭니']]];
-    const GROUP_TO_TAB={'캄몬스타즈':'cammonstars','김윤환':'kimyunhwan','코치진':'coaches','토마토':'tomato','지두두':'jidudu','햇살':'sunshine','찌킹':'jjiking','소주양':'soju','치리':'chiri','주하랑':'juharang','임조이':'imjoy','비타밍':'vitaming','아리송이':'arisong','먼진':'meonjin','진땅콩':'peanut','낭니':'nangni'};
+    const SPECIAL_EVENT_DATE_KST='2026-06-02';
+    const DEFAULT_TABS=[{id:'all',name:'전체'},{id:'top100',name:'탑100'},{id:'gatbeolstar',name:'갯벌스타',temporary:true},{id:'cammonstars',name:'캄몬스타즈'},{id:'kimyunhwan',name:'김윤환'},{id:'coaches',name:'코치진'},{id:'tomato',name:'토마토'},{id:'jidudu',name:'지두두'},{id:'sunshine',name:'햇살'},{id:'jjiking',name:'찌킹'},{id:'soju',name:'소주양'},{id:'chiri',name:'치리'},{id:'juharang',name:'주하랑'},{id:'imjoy',name:'임조이'},{id:'vitaming',name:'비타밍'},{id:'arisong',name:'아리송이'},{id:'meonjin',name:'먼진'},{id:'peanut',name:'진땅콩'},{id:'nangni',name:'낭니'},{id:'etc',name:'기타'}];
+    const MEMBER_RULES=[['cammonstars',['캄몬스즈','캄몬','캄즈','캄스타즈','캄몬스타즈','몬스타즈','kammon','monstarz','calm']],['kimyunhwan',['김윤환','윤환','암센세','와치','센세']],['coaches',['코치','사테','박준오','배성흠','지동원','참치','파도튜브','파도','박수범','수범','범신','다린','이경민']],['tomato',['토마토','마토']],['jidudu',['지두두','두두','jidudu']],['sunshine',['햇살','햇짤']],['jjiking',['찌킹']],['soju',['소주양','주양','소주']],['chiri',['치리']],['juharang',['주하랑','하랑']],['imjoy',['임조이','조이']],['vitaming',['비타밍','타밍']],['arisong',['아리송이','송이','아리']],['meonjin',['먼진']],['peanut',['진땅콩','땅콩']],['nangni',['낭니']]];
+    const SPECIAL_EVENT_EXTRA_KEYWORDS=['철구','족구','씨나인','박재혁','재혁','김택용','택용','택신','윤용태','용태','유승곤','승곤','왜냐맨','장민철','강구열','구열','나무늘봉순','봉순','요닝','디임','졈니','앵지','오조은','조은','남수댕','수댕','란란','오리꿍','모리','효짱'];
+    const SPECIAL_EVENT_KEYWORDS=[...new Set([...MEMBER_RULES.flatMap(([,keys])=>keys),...SPECIAL_EVENT_EXTRA_KEYWORDS])];
+    const GROUP_TO_TAB={'캄몬스타즈':'cammonstars','김윤환':'kimyunhwan','코치진':'coaches','토마토':'tomato','지두두':'jidudu','햇살':'sunshine','찌킹':'jjiking','소주양':'soju','치리':'chiri','주하랑':'juharang','임조이':'imjoy','비타밍':'vitaming','아리송이':'arisong','먼진':'meonjin','진땅콩':'peanut','낭니':'nangni','갯벌스타':'gatbeolstar'};
+    const STANDARD_MEMBER_TAB_IDS=new Set(MEMBER_RULES.map(([id])=>id));
     let rawData={tabs:DEFAULT_TABS,items:[]},activeTab='all',searchText='';
     const $=s=>document.querySelector(s); const esc=v=>String(v||'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;'); const fmt=v=>{const n=Number(v||0);return Number.isFinite(n)?n.toLocaleString('ko-KR'):'0'};
+    function nowKstDate(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
+    function normalizeText(v){return String(v||'').replace(/\s+/g,'').toLowerCase()}
+    function containsAnyKeyword(text,keywords){const normalized=normalizeText(text);return keywords.some(keyword=>normalized.includes(normalizeText(keyword)))}
+    function inferPostDateKst(post){
+      if(post.postDateKst) return String(post.postDateKst).slice(0,10);
+      const txt=String(post.postedText||post.displayTime||post.postedAtText||post.date||'').trim();
+      const collected=String(post.collectedAt||'').slice(0,10);
+      if(/^\d{1,2}:\d{2}$/.test(txt)) return collected||SPECIAL_EVENT_DATE_KST;
+      let m=txt.match(/^(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})$/); if(m) return `${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
+      m=txt.match(/^(\d{2})\.(\d{1,2})\.(\d{1,2})$/); if(m) return `20${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
+      m=txt.match(/^(\d{1,2})\/(\d{1,2})$/); if(m) return `${(collected||SPECIAL_EVENT_DATE_KST).slice(0,4)}-${String(m[1]).padStart(2,'0')}-${String(m[2]).padStart(2,'0')}`;
+      return collected;
+    }
+    function isSpecialEventActive(){return nowKstDate()===SPECIAL_EVENT_DATE_KST}
+    function isSpecialEventPost(post){return isSpecialEventActive()&&inferPostDateKst(post)===SPECIAL_EVENT_DATE_KST&&containsAnyKeyword(post.title,SPECIAL_EVENT_KEYWORDS)}
+    function visibleTabs(){return DEFAULT_TABS.filter(tab=>!tab.temporary||isSpecialEventActive())}
     function normalizeInput(json){
       if(Array.isArray(json)) return json.map(u=> typeof u==='string'?{url:u}:u);
       if(Array.isArray(json.items)) return json.items;
@@ -77,7 +97,8 @@
       title=title.replace(/\s*-\s*에펨코리아.*$/,'').replace(/\s*-\s*FMKOREA.*$/i,'').trim();
       const desc=get(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i)||'';
       const merged=(title+' '+desc+' '+url).toLowerCase();
-      let tabs=['all']; MEMBER_RULES.forEach(([id,keys])=>{if(keys.some(k=>merged.includes(k.toLowerCase()))) tabs.push(id)}); if(tabs.length===1) tabs.push('cammonstars');
+      let tabs=['all']; MEMBER_RULES.forEach(([id,keys])=>{if(keys.some(k=>merged.includes(k.toLowerCase()))) tabs.push(id)}); if(tabs.length===1) tabs.push('etc');
+      if(isSpecialEventActive()&&containsAnyKeyword(title,SPECIAL_EVENT_KEYWORDS)) tabs.push('gatbeolstar');
       const likes=Number((text.match(/(?:추천|like)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
       const comments=Number((text.match(/(?:댓글|comment)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
       const views=Number((text.match(/(?:조회|view)[^0-9]{0,20}([0-9,]+)/i)||[])[1]?.replaceAll(',','')||0);
@@ -88,7 +109,10 @@
       const url=String(post.url||post.link||post).trim();
       if(post.title){
         const groupTabs=Array.isArray(post.matchedGroups)?post.matchedGroups.map(g=>GROUP_TO_TAB[g]).filter(Boolean):[];
-        const tabs=[...new Set(['all', ...groupTabs])];
+        const standardTabs=groupTabs.filter(id=>STANDARD_MEMBER_TAB_IDS.has(id));
+        const tabs=[...new Set(['all', ...standardTabs])];
+        if(standardTabs.length===0) tabs.push('etc');
+        if(isSpecialEventPost(post)) tabs.push('gatbeolstar');
         const likesValue=Number(post.likes||0);
         if(likesValue>=100) tabs.push('top100');
         const comments=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','')||0;
@@ -111,11 +135,12 @@
     function getPostsByTab(id){
       const items=rawData.items||[];
       if(id==='top100') return items.filter(p=>Number(p.likes||0)>=100).slice(0,100);
+      if(id==='gatbeolstar') return isSpecialEventActive()?items.filter(isSpecialEventPost):[];
       return items.filter(p=>Array.isArray(p.tabs)&&p.tabs.includes(id));
     }
     function getVisiblePosts(){const q=searchText.trim().toLowerCase(); return getPostsByTab(activeTab).filter(p=>!q||String(p.title||'').toLowerCase().includes(q)).sort((a,b)=> activeTab==='top100'?Number(a.timestamp||0)-Number(b.timestamp||0):Number(a.timestamp||0)-Number(b.timestamp||0));}
-    function renderTabs(){const el=$('#tabs'); el.innerHTML=DEFAULT_TABS.map(t=>`<button class="tab ${t.id===activeTab?'active':''}" data-tab="${t.id}">${esc(t.name)}</button>`).join(''); el.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});}
-    function renderList(){const posts=getVisiblePosts(); const name=DEFAULT_TABS.find(t=>t.id===activeTab)?.name||'전체'; $('#status').textContent=`${name} · ${posts.length.toLocaleString('ko-KR')}건`; if(!posts.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;} $('#list').innerHTML=posts.map((p,i)=>`<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span class="metric">🕒 ${esc(p.date||'-')}</span><span class="metric">👍 ${fmt(p.likes)}</span><span class="metric">💬 ${fmt(p.comments)}</span><span class="metric">👁 ${fmt(p.views)}</span></div></div><div class="badge-zone">${Number(p.likes||0)>=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`).join('');}
+    function renderTabs(){const tabs=visibleTabs(); if(!tabs.some(t=>t.id===activeTab)) activeTab='all'; const el=$('#tabs'); el.innerHTML=tabs.map(t=>`<button class="tab ${t.id===activeTab?'active':''}" data-tab="${t.id}">${esc(t.name)}</button>`).join(''); el.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab;render();});}
+    function renderList(){const posts=getVisiblePosts(); const name=visibleTabs().find(t=>t.id===activeTab)?.name||'전체'; $('#status').textContent=`${name} · ${posts.length.toLocaleString('ko-KR')}건`; if(!posts.length){$('#list').innerHTML='<div class="empty">현재 조건에 맞는 인기글이 없습니다.</div>';return;} $('#list').innerHTML=posts.map((p,i)=>`<article class="post"><div class="case-no">#${String(i+1).padStart(3,'0')}</div><div><a class="post-title" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a><div class="post-meta"><span class="metric">🕒 ${esc(p.date||'-')}</span><span class="metric">👍 ${fmt(p.likes)}</span><span class="metric">💬 ${fmt(p.comments)}</span><span class="metric">👁 ${fmt(p.views)}</span></div></div><div class="badge-zone">${Number(p.likes||0)>=100?'<span class="hot-badge">TOP100</span>':''}<span class="open-badge">원문 보기 ↗</span></div></article>`).join('');}
     function render(){renderTabs();renderList();}
     async function init(){try{const r=await fetch(DATA_URL,{cache:'no-store'}); if(!r.ok) throw new Error('json fail'); const json=await r.json(); const base=normalizeInput(json); $('#status').textContent=`${base.length}개 불러오는 중...`; const items=[]; for(let i=0;i<base.length;i++){ $('#status').textContent=`${i+1}/${base.length} 불러오는 중...`; items.push(await enrichPost(base[i],i)); rawData={tabs:DEFAULT_TABS,items}; render(); } rawData={tabs:DEFAULT_TABS,items}; render();}catch(e){rawData={tabs:DEFAULT_TABS,items:[]}; renderTabs(); $('#status').textContent='로드 실패'; $('#list').innerHTML='<div class="empty">data/posts.json을 불러오지 못했습니다. 로컬은 Live Server 같은 서버로 열어주세요.</div>';}}
     $('#search').addEventListener('input',e=>{searchText=e.target.value;renderList();}); init();
