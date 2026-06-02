@@ -77,7 +77,7 @@
       return collected;
     }
     function inferStandardTabs(title){const text=normalizeText(title);return MEMBER_RULES.filter(([,keys])=>keys.some(k=>text.includes(normalizeText(k)))).map(([id])=>id)}
-    function isSpecialEventPost(post){return inferPostDateKst(post)===SPECIAL_EVENT_POST_DATE_KST&&containsAnyKeyword(post.title,SPECIAL_EVENT_KEYWORDS)}
+    function isSpecialEventPost(post){const groups=Array.isArray(post.matchedGroups)?post.matchedGroups:[];return inferPostDateKst(post)===SPECIAL_EVENT_POST_DATE_KST&&(post.gatbeolstarArchive===true||groups.includes('갯벌스타'))}
     function normalizeInput(json){
       if(Array.isArray(json)) return json.map(u=> typeof u==='string'?{url:u}:u);
       if(Array.isArray(json.items)) return json.items;
