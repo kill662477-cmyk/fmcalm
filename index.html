@@ -86,9 +86,9 @@
       const txt=String(post.postedText||post.displayTime||post.postedAtText||post.date||'').trim();
       const collected=String(post.collectedAt||'').slice(0,10);
       if(/^\d{1,2}:\d{2}$/.test(txt)) return collected||SPECIAL_EVENT_POST_DATE_KST;
-      let m=txt.match(/^(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})$/); if(m) return `${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
-      m=txt.match(/^(\d{2})\.(\d{1,2})\.(\d{1,2})$/); if(m) return `20${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
-      m=txt.match(/^(\d{1,2})\/(\d{1,2})$/); if(m) return `${(collected||SPECIAL_EVENT_POST_DATE_KST).slice(0,4)}-${String(m[1]).padStart(2,'0')}-${String(m[2]).padStart(2,'0')}`;
+      let m=txt.match(/^(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?/); if(m) return `${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
+      m=txt.match(/^(\d{2})\.(\d{1,2})\.(\d{1,2})(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?/); if(m) return `20${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
+      m=txt.match(/^(\d{1,2})\/(\d{1,2})/); if(m) return `${(collected||SPECIAL_EVENT_POST_DATE_KST).slice(0,4)}-${String(m[1]).padStart(2,'0')}-${String(m[2]).padStart(2,'0')}`;
       return collected;
     }
     function inferStandardTabs(title){const text=normalizeText(title);return MEMBER_RULES.filter(([,keys])=>keys.some(k=>text.includes(normalizeText(k)))).map(([id])=>id)}
@@ -121,31 +121,37 @@
       if(likes>=100) tabs.push('top100');
       return {title:title||('FMKOREA 글 '+(url.match(/\/(\d+)(?:\?|$)/)||[])[1]||url),url,date:new Date().toLocaleString('ko-KR'),likes,comments,views,tabs:[...new Set(tabs)],timestamp:Date.now()};
     }
+    function getSortValue(post,i){
+      for(const key of ['sourceOrder','sortOrder','order']){
+        const n=Number(post?.[key]);
+        if(Number.isFinite(n) && n!==0) return n;
+      }
+      return i+1;
+    }
     async function enrichPost(post,i){
       const url=String(post.url||post.link||post).trim();
       if(post.title){
         const groupedTabs=Array.isArray(post.matchedGroups)?post.matchedGroups.map(g=>GROUP_TO_TAB[g]).filter(Boolean):[];
-        const standardTabs=[...new Set([...groupedTabs.filter(id=>STANDARD_MEMBER_TAB_IDS.has(id)),...inferStandardTabs(post.title)])];
-        const presetTabs=Array.isArray(post.tabs)?post.tabs:[];
-        const tabs=['all',...presetTabs.filter(Boolean),...standardTabs];
+        const standardTabs=[...new Set([...groupedTabs,...inferStandardTabs(post.title)])];
+        const tabs=['all',...standardTabs];
         if(isSpecialEventPost(post)) tabs.push('gatbeolstar');
         const likesValue=Number(post.likes||0);
         if(likesValue>=100) tabs.push('top100');
-        const commentsFromTitle=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','');
-        const comments=commentsFromTitle?Number(commentsFromTitle):Number(post.comments||0);
+        const titleComments=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','')||0;
+        const commentsValue=post.comments!==undefined&&post.comments!==null?Number(post.comments):Number(titleComments||0);
         return {
           ...post,
           id:i+1,
           url,
-          date:post.postedText || post.displayTime || post.postedAtText || post.date || '',
-          comments:Number(comments),
+          date:post.displayTime || post.postedText || post.postedAtText || post.date || '',
+          comments:Number.isFinite(commentsValue)?commentsValue:0,
           likes:likesValue,
           views:Number(post.views||0),
           tabs:[...new Set(tabs)],
-          timestamp:Number(post.sortOrder || i + 1)
+          timestamp:getSortValue(post,i)
         };
       }
-      if(post.tabs) return {...post,id:i+1};
+      if(post.tabs) return {...post,id:i+1,tabs:[...new Set(['all',...(post.tabs||[])])],timestamp:getSortValue(post,i)};
       const cached=localStorage.getItem(cacheKey(url)); if(cached){try{return {...JSON.parse(cached),id:i+1}}catch(e){}}
       const html=await fetchText(url); const meta=extractMetaFromHtml(url,html); meta.id=i+1; localStorage.setItem(cacheKey(url),JSON.stringify(meta)); return meta;
     }
@@ -153,6 +159,7 @@
       const items=rawData.items||[];
       if(id==='top100') return items.filter(p=>Array.isArray(p.tabs)&&p.tabs.includes('top100')).slice(0,100);
       if(id==='gatbeolstar') return isSpecialEventTabVisible()?items.filter(isSpecialEventPost):[];
+      if(id==='all') return items.filter(p=>p&&p.url);
       return items.filter(p=>Array.isArray(p.tabs)&&p.tabs.includes(id));
     }
     function getVisiblePosts(){const q=searchText.trim().toLowerCase(); return getPostsByTab(activeTab).filter(p=>!q||String(p.title||'').toLowerCase().includes(q)).sort((a,b)=> activeTab==='top100'?Number(a.timestamp||0)-Number(b.timestamp||0):Number(a.timestamp||0)-Number(b.timestamp||0));}
