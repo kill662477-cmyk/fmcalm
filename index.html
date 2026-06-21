@@ -126,12 +126,13 @@
       if(post.title){
         const groupedTabs=Array.isArray(post.matchedGroups)?post.matchedGroups.map(g=>GROUP_TO_TAB[g]).filter(Boolean):[];
         const standardTabs=[...new Set([...groupedTabs.filter(id=>STANDARD_MEMBER_TAB_IDS.has(id)),...inferStandardTabs(post.title)])];
-        const tabs=[];
-        if(standardTabs.length) tabs.push('all',...standardTabs);
+        const presetTabs=Array.isArray(post.tabs)?post.tabs:[];
+        const tabs=['all',...presetTabs.filter(Boolean),...standardTabs];
         if(isSpecialEventPost(post)) tabs.push('gatbeolstar');
         const likesValue=Number(post.likes||0);
-        if(standardTabs.length&&likesValue>=100) tabs.push('top100');
-        const comments=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','')||0;
+        if(likesValue>=100) tabs.push('top100');
+        const commentsFromTitle=(String(post.title).match(/\[([0-9,]+)\]\s*$/)||[])[1]?.replaceAll(',','');
+        const comments=commentsFromTitle?Number(commentsFromTitle):Number(post.comments||0);
         return {
           ...post,
           id:i+1,
