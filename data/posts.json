@@ -1,7 +1,1959 @@
 {
-  "updatedAt": "2026-06-22T13:45:19+09:00",
-  "count": 245,
+  "updatedAt": "2026-06-22T17:39:52+09:00",
+  "count": 249,
   "items": [
+    {
+      "collectedAt": "2026-06-22T17:39:40+09:00",
+      "comments": 17,
+      "displayTime": "16:21",
+      "likes": 47,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "진땅콩"
+      ],
+      "matchedKeywords": [
+        "캄몬스타즈",
+        "캄 몬스타즈",
+        "캄몬",
+        "진땅콩",
+        "땅콩"
+      ],
+      "order": 237,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "postedText": "16:21",
+      "source": "fmkorea",
+      "sourceOrder": 0,
+      "title": "[ 캄몬스타즈 진땅콩 공지 ] [17]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9987822278&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T17:39:41+09:00",
+      "comments": 13,
+      "displayTime": "14:43",
+      "likes": 68,
+      "matchedGroups": [
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "지두두",
+        "두두"
+      ],
+      "order": 180,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "14:43",
+      "source": "fmkorea",
+      "sourceOrder": 10000,
+      "title": "지두두 \"퀸주가 게임에 그게 있어 끈기라고 해야하나 불리해도 어떻게든\" [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9987402911&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T17:39:41+09:00",
+      "comments": 12,
+      "displayTime": "14:26",
+      "likes": 34,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 200,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "14:26",
+      "source": "fmkorea",
+      "sourceOrder": 10001,
+      "title": "철구) 여기서만 이런거에요 모니터좀 바꿔라 // 김윤환) 가고 다음에 잘해보자 // 철구) 여러분들 죄송합니다 대회떈 이기겠습니다 [12]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986169991&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T17:39:41+09:00",
+      "comments": 1,
+      "displayTime": "13:53",
+      "likes": 50,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 220,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "13:53",
+      "source": "fmkorea",
+      "sourceOrder": 10002,
+      "title": "족암새) 벌레 여자들한테 먹이려고 물타기 시도했지만 실패하는 김윤환 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [1]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986115958&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 6,
+      "displayTime": "13:14",
+      "likes": 60,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 232,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "13:14",
+      "source": "fmkorea",
+      "sourceOrder": 10003,
+      "title": "족암새) 김윤환 : 그대로 나가서 집에가서 쳐 자 / 철구 : 모니터는 바꿔라 ㅋㅋㅋㅋㅋㅋㅋㅋ [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986167483&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 3,
+      "displayTime": "13:10",
+      "likes": 72,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 236,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "13:10",
+      "source": "fmkorea",
+      "sourceOrder": 10004,
+      "title": "김윤환) 조새도 현타왔어 방송은 하는데 왜 손해만 보는 표정이야 // 갱이다) 이러고 일본은 어떻게 가시지? [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986203810&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 1,
+      "displayTime": "12:41",
+      "likes": 67,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 244,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "12:41",
+      "source": "fmkorea",
+      "sourceOrder": 10005,
+      "title": "족암새) 김윤환 : 세팅 ㅈ같네 // 시조새 : 4드론은 세팅이 아니잖아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [1]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986122434&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 10,
+      "displayTime": "12:31",
+      "likes": 111,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 248,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "12:31",
+      "source": "fmkorea",
+      "sourceOrder": 10006,
+      "title": "정윤종) 김윤환이 반도체 사면 그때 바로 판다 ㅋㅋㅋㅋㅋㅋ [10]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9987164793&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 11,
+      "displayTime": "12:30",
+      "likes": 71,
+      "matchedGroups": [
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "지두두",
+        "두두"
+      ],
+      "order": 252,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "12:30",
+      "source": "fmkorea",
+      "sourceOrder": 10007,
+      "title": "지두두 근황 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [11]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986070273&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 13,
+      "displayTime": "12:27",
+      "likes": 76,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 176,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "12:27",
+      "source": "fmkorea",
+      "sourceOrder": 20000,
+      "title": "벌레 먹는 김윤환 보는 졈니 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986104581&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 15,
+      "displayTime": "12:07",
+      "likes": 64,
+      "matchedGroups": [
+        "캄몬스타즈"
+      ],
+      "matchedKeywords": [
+        "캄몬스타즈",
+        "캄 몬스타즈",
+        "캄몬"
+      ],
+      "order": 180,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "12:07",
+      "source": "fmkorea",
+      "sourceOrder": 20001,
+      "title": "시조새) 맨날 세팅이야 당신이 뭐 닥터고블린이야? 캄몬스타즈 디코나 고쳐 ㅋㅋㅋㅋㅋㅋ [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986183143&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 3,
+      "displayTime": "11:09",
+      "likes": 99,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 200,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "11:09",
+      "source": "fmkorea",
+      "sourceOrder": 20002,
+      "title": "철구 윤환 협상결렬 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986085259&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 6,
+      "displayTime": "11:06",
+      "likes": 61,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "지동원"
+      ],
+      "order": 204,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "11:06",
+      "source": "fmkorea",
+      "sourceOrder": 20003,
+      "title": "지동원) 저기.... 제 게임을 6분에 처음 봤다는데 맞나요?? [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985891064&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 6,
+      "displayTime": "10:56",
+      "likes": 82,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "조이"
+      ],
+      "order": 212,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:56",
+      "source": "fmkorea",
+      "sourceOrder": 20004,
+      "title": "조이) 나 빌드 패싱했어 ㅅㅂ 죄송해요 재혁썜 // 박재혁) 아니야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986199790&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 3,
+      "displayTime": "10:39",
+      "likes": 84,
+      "matchedGroups": [
+        "김윤환",
+        "임조이",
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환",
+        "임조이",
+        "조이",
+        "비타밍",
+        "타밍"
+      ],
+      "order": 216,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:39",
+      "source": "fmkorea",
+      "sourceOrder": 20005,
+      "title": "시조새) 난 공다츠 비타밍 임조이 넌 누구야 최세상) 키링이요 김윤환) 500개 가자 [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986120502&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 3,
+      "displayTime": "10:31",
+      "likes": 72,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 220,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:31",
+      "source": "fmkorea",
+      "sourceOrder": 20006,
+      "title": "김윤환 : 조새씨한테 고마운게 많네, 오늘 시조새 욕하는 애들 다 쳐내 ! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985646040&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:16+09:00",
+      "comments": 18,
+      "displayTime": "10:14",
+      "likes": 89,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 224,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:14",
+      "source": "fmkorea",
+      "sourceOrder": 20007,
+      "title": "김윤환 걱정뿐인 지수...ㅠㅠㅠㅠㅠㅠ [18]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986097468&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 4,
+      "displayTime": "10:08",
+      "likes": 69,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "임조이",
+        "조이"
+      ],
+      "order": 228,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:08",
+      "source": "fmkorea",
+      "sourceOrder": 20008,
+      "title": "임조이) 잠깐만 한명이 달라졌는데 분위기가 달라졌다고? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [4]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986229059&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 11,
+      "displayTime": "09:47",
+      "likes": 96,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 252,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "09:47",
+      "source": "fmkorea",
+      "sourceOrder": 20009,
+      "title": "김윤환) 우리 지금 다 손해봤고 집에서 합시다 // 시조새) 우리 절대 다시 모이지말자 ㅋㅋㅋㅋㅋㅋㅋ [11]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986240457&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 32,
+      "displayTime": "09:18",
+      "likes": 100,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "조이"
+      ],
+      "order": 180,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "09:18",
+      "source": "fmkorea",
+      "sourceOrder": 30000,
+      "title": "나다개장수) 조이팔에게 속은 두명 추가 ㅋㅋㅋㅋㅋ [32]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986249645&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 6,
+      "displayTime": "08:20",
+      "likes": 73,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 192,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "08:20",
+      "source": "fmkorea",
+      "sourceOrder": 30001,
+      "title": "족암새) 88걸리고 족구에게 채팅으로 샤킹치는 김윤환 ㅋㅋㅋ [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985399207&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 15,
+      "displayTime": "08:12",
+      "likes": 121,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "사테"
+      ],
+      "order": 196,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "08:12",
+      "source": "fmkorea",
+      "sourceOrder": 30002,
+      "title": "족암새) 비겁환 : 사테가 4드론 시켰다 // 사테 : 내가 언제 !! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986067637&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 13,
+      "displayTime": "08:08",
+      "likes": 80,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "지두두",
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "지두두",
+        "두두",
+        "임조이",
+        "조이"
+      ],
+      "order": 204,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "08:08",
+      "source": "fmkorea",
+      "sourceOrder": 30003,
+      "title": "캄몬) 임조이 뮤짤보고 이걸보고도 어캐 안속냐는 지두두 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986193382&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 8,
+      "displayTime": "08:08",
+      "likes": 64,
+      "matchedGroups": [
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "토마토",
+        "마토"
+      ],
+      "order": 208,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "08:08",
+      "source": "fmkorea",
+      "sourceOrder": 30004,
+      "title": "토마토) 이 빌드 왜 한지 아십니까 철구오빠 대학에 단 1승이였던 그 빌드 했습니다 철와대떄 철구오빠 1승밖에 못해줬거든요 [8]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985169849&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 10,
+      "displayTime": "07:52",
+      "likes": 66,
+      "matchedGroups": [
+        "김윤환",
+        "코치진",
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환",
+        "참치",
+        "지두두",
+        "두두"
+      ],
+      "order": 212,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "07:52",
+      "source": "fmkorea",
+      "sourceOrder": 30005,
+      "title": "김윤환 4드론 막는 참치에 좋아죽는 지두두 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [10]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986046331&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:17+09:00",
+      "comments": 11,
+      "displayTime": "07:11",
+      "likes": 85,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "비타밍",
+        "타밍"
+      ],
+      "order": 216,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "07:11",
+      "source": "fmkorea",
+      "sourceOrder": 30006,
+      "title": "캄몬)조새 시그까지 잘추는 비타밍 [11]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984840603&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 12,
+      "displayTime": "06:36",
+      "likes": 85,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "임조이",
+        "진땅콩"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "임조이",
+        "조이",
+        "진땅콩",
+        "땅콩"
+      ],
+      "order": 240,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "06:36",
+      "source": "fmkorea",
+      "sourceOrder": 30007,
+      "title": "캄몬) 임조이 드랍보고 두손놓고 눈비비는 진땅콩ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985778477&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 14,
+      "displayTime": "06:35",
+      "likes": 96,
+      "matchedGroups": [
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "마토"
+      ],
+      "order": 244,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "06:35",
+      "source": "fmkorea",
+      "sourceOrder": 30008,
+      "title": "마토) 나도 벌레 못먹어 살려고 먹는거야 그때 10만명이 나락 꺼져 도배 치는데 못먹겠냐 [14]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986115533&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 2,
+      "displayTime": "06:14",
+      "likes": 62,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "지동원"
+      ],
+      "order": 248,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "06:14",
+      "source": "fmkorea",
+      "sourceOrder": 30009,
+      "title": "기뉴다:전태규 왜 맞라인 2천개 안줘?야 지동원 받아와 //지동원:받아오면 뽀찌주나요?// 졈니:주겠냐? [2]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985169047&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 42,
+      "displayTime": "06:05",
+      "likes": 92,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "임조이",
+        "조이"
+      ],
+      "order": 252,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "postedText": "06:05",
+      "source": "fmkorea",
+      "sourceOrder": 30010,
+      "title": "나다개장수) 박재혁 : 와 임조이 미쳣다 존나 잘한다! ㅋㅋㅋㅋㅋㅋㅋ [42]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986204023&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 17,
+      "displayTime": "05:42",
+      "likes": 88,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 180,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "05:42",
+      "source": "fmkorea",
+      "sourceOrder": 40000,
+      "title": "족암새) 시원하게 밀웜 먹는 비타밍 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [17]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986098108&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 13,
+      "displayTime": "05:24",
+      "likes": 125,
+      "matchedGroups": [
+        "김윤환",
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환",
+        "토마토",
+        "마토"
+      ],
+      "order": 184,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "05:24",
+      "source": "fmkorea",
+      "sourceOrder": 40001,
+      "title": "김윤환 벌레먹방 보는 토마토 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986110356&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 10,
+      "displayTime": "04:01",
+      "likes": 94,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 196,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "04:01",
+      "source": "fmkorea",
+      "sourceOrder": 40002,
+      "title": "윤환) 넌 감정이 없냐?? // 철구) 전 수장 역할하잖아요 넌 뭐했는데? // 조새) 방 빌려줬어요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [10]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985193358&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 8,
+      "displayTime": "02:40",
+      "likes": 80,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 224,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "02:40",
+      "source": "fmkorea",
+      "sourceOrder": 40003,
+      "title": "족암새) 윤환 : 모니터가 .... / 족구 : 나도 사실 스파이어 지었어 ㅋㅋㅋㅋㅋㅋㅋㅋ [8]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985882278&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 10,
+      "displayTime": "02:33",
+      "likes": 85,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "철벽"
+      ],
+      "order": 228,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "02:33",
+      "source": "fmkorea",
+      "sourceOrder": 40004,
+      "title": "투신: 구루미 롤ck도 나간다고? 뭐야 철벽친거잖아 아까 채팅 쳐줬으면 멘트라도 한번 더 치는데 그런건 상처 안받고 더 재밌게하지 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [10]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985833642&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 8,
+      "displayTime": "02:24",
+      "likes": 110,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "김윤환",
+        "윤환"
+      ],
+      "order": 232,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "02:24",
+      "source": "fmkorea",
+      "sourceOrder": 40005,
+      "title": "철구 : 캄몬 벌레투입하시죠 // 김윤환 : 잃을게 없습니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [8]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986112160&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 11,
+      "displayTime": "02:18",
+      "likes": 80,
+      "matchedGroups": [
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "지두두",
+        "두두"
+      ],
+      "order": 244,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "02:18",
+      "source": "fmkorea",
+      "sourceOrder": 40006,
+      "title": "참교육) 지두두: 라니언니 저 1.25는 뭐지? / 기뉴다: 회장님 떠난날잖가? / 퀸주: 헉..... [11]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985744168&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 25,
+      "displayTime": "02:17",
+      "likes": 255,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 248,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
+      "postedText": "02:17",
+      "source": "fmkorea",
+      "sourceOrder": 40007,
+      "title": "족암새) 김윤환 : 야 이 새끼야 처음 본 사람을 12시간 징용하냐 / 철구 : 수용소도 이렇게 안해 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [25]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986126960&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 32,
+      "displayTime": "02:11",
+      "likes": 220,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "두두"
+      ],
+      "order": 180,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "02:11",
+      "source": "fmkorea",
+      "sourceOrder": 50000,
+      "title": "철구 : 이제 캄몬 벌레 도입 되는건가요? // 두두 : 아 센세... 센세! 눈이 왜 이래!! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [32]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986115263&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 29,
+      "displayTime": "02:09",
+      "likes": 236,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "토마토",
+        "마토"
+      ],
+      "order": 184,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "02:09",
+      "source": "fmkorea",
+      "sourceOrder": 50001,
+      "title": "캄몬) 토마토 : 야 ㅈ댓다 밀웜 벌칙 해금 됐다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [29]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986107894&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 8,
+      "displayTime": "02:05",
+      "likes": 126,
+      "matchedGroups": [
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "지두두",
+        "두두"
+      ],
+      "order": 188,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "02:05",
+      "source": "fmkorea",
+      "sourceOrder": 50002,
+      "title": "기뉴다vs쭈글투라니 듣고있는 지두두시점ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [8]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985864048&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 16,
+      "displayTime": "01:55",
+      "likes": 221,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 192,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:55",
+      "source": "fmkorea",
+      "sourceOrder": 50003,
+      "title": "철구 김윤환 몸싸움 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [16]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986080785&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 5,
+      "displayTime": "01:43",
+      "likes": 104,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "지동원"
+      ],
+      "order": 200,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:43",
+      "source": "fmkorea",
+      "sourceOrder": 50004,
+      "title": "뉴다)2라니 캠켜 이새꺄 //지동원)내 경기 리딸 할것도 없겠네 ㅆㅂ 내내 2라니만 ㅈㄴ 팼겠네 ㅋㅋㅋ [5]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985896000&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 3,
+      "displayTime": "01:38",
+      "likes": 88,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 204,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:38",
+      "source": "fmkorea",
+      "sourceOrder": 50005,
+      "title": "철구) 타밍아 고맙다 // 비타밍) 괜찮아요 // 철구) 이게 팀이야 ㅋㅋㅋㅋㅋㅋㅋ [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985831639&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:18+09:00",
+      "comments": 3,
+      "displayTime": "01:33",
+      "likes": 91,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 208,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:33",
+      "source": "fmkorea",
+      "sourceOrder": 50006,
+      "title": "최세상) 나 사업 어떘어? // 윤환) 우린 이제 트레이트 없다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985936814&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 7,
+      "displayTime": "01:08",
+      "likes": 96,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 228,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:08",
+      "source": "fmkorea",
+      "sourceOrder": 50007,
+      "title": "족암새) 졈니 잡은 최세상 / 김윤환 : 우리는 원팀이야 트레이드 없다 ㅋㅋㅋㅋㅋㅋ [7]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985935567&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 9,
+      "displayTime": "01:04",
+      "likes": 153,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 232,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "01:04",
+      "source": "fmkorea",
+      "sourceOrder": 50008,
+      "title": "족암새) 철구 : 박수를 몇 번 치는거에요? // 김윤환 : 물빨 할 때 받아 아까 채팅 다시 보여줘 ? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985951479&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 9,
+      "displayTime": "00:48",
+      "likes": 180,
+      "matchedGroups": [
+        "김윤환",
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환",
+        "비타밍",
+        "타밍"
+      ],
+      "order": 236,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
+      "postedText": "00:48",
+      "source": "fmkorea",
+      "sourceOrder": 50009,
+      "title": "족암새) 김윤환 : 우리 원팀이야 ! // 비타밍 : 자기 질 때만 원팀이야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985900783&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 22,
+      "displayTime": "00:04",
+      "likes": 134,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "코치진",
+        "진땅콩"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "변현제",
+        "현제",
+        "땅콩"
+      ],
+      "order": 188,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "00:04",
+      "source": "fmkorea",
+      "sourceOrder": 60000,
+      "title": "캄몬) 보법이 다른 AB형 변현제 - 땅콩아 너가 캄몬 6,7티어를 때려잡아서 걔네들도 열심히 하게 하는거야 [22]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985695687&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 7,
+      "displayTime": "23:51",
+      "likes": 112,
+      "matchedGroups": [
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "마토"
+      ],
+      "order": 196,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:51",
+      "source": "fmkorea",
+      "sourceOrder": 60001,
+      "title": "구루미) 마토가 640원이래 // 막현) 우리 모두를 합쳐도 640원이 안돼 // 이유란) 우리 다 합쳐도 마토한테 안돼 시발 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [7]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985688364&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 4,
+      "displayTime": "23:55",
+      "likes": 91,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 204,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:55",
+      "source": "fmkorea",
+      "sourceOrder": 60002,
+      "title": "족암새) 시조새 : 세상이가 스타도 못하고 방송도 못하고 // 김윤환 : 그건 맞는데 ㅈ까이 생겼나 보지 ㅋㅋㅋㅋㅋㅋㅋ [4]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985552643&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 28,
+      "displayTime": "23:48",
+      "likes": 115,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 208,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:48",
+      "source": "fmkorea",
+      "sourceOrder": 60003,
+      "title": "기뉴다 \"윤환이한테 대학대전처럼 각자 켜보자고 이야기했다\" [28]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985646212&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:19+09:00",
+      "comments": 12,
+      "displayTime": "23:39",
+      "likes": 123,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 220,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:39",
+      "source": "fmkorea",
+      "sourceOrder": 60004,
+      "title": "족암새) 시조새 : 윤환이형 한마디 하세요 좀 더 이야기 하세요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985630472&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 14,
+      "displayTime": "23:21",
+      "likes": 108,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 244,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:21",
+      "source": "fmkorea",
+      "sourceOrder": 60005,
+      "title": "족암새) 철구 : 나 김우빈, 유노윤호 닮았다는 소리 // 김윤환 : 배쏘영남 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [14]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985559527&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 10,
+      "displayTime": "23:13",
+      "likes": 106,
+      "matchedGroups": [
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "토마토",
+        "마토"
+      ],
+      "order": 248,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
+      "postedText": "23:13",
+      "source": "fmkorea",
+      "sourceOrder": 60006,
+      "title": "뉴캄옥션 철구 픽 영도 보는 토마토 ㅋㅋㅋㅋㅋㅋㅋ [10]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984683878&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 20,
+      "displayTime": "22:58",
+      "likes": 104,
+      "matchedGroups": [
+        "코치진",
+        "지두두"
+      ],
+      "matchedKeywords": [
+        "지동원",
+        "지두두",
+        "두두"
+      ],
+      "order": 176,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:58",
+      "source": "fmkorea",
+      "sourceOrder": 70000,
+      "title": "테테전 개념싸움 지동원 vs 지두두 [20]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985434091&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 15,
+      "displayTime": "22:39",
+      "likes": 97,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "임조이",
+        "조이"
+      ],
+      "order": 204,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:39",
+      "source": "fmkorea",
+      "sourceOrder": 70001,
+      "title": "캄몬,나다개장수)이윤열도 박수치게 만드는 쇼츠저그 임조이 [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984975492&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 13,
+      "displayTime": "22:33",
+      "likes": 172,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 208,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:33",
+      "source": "fmkorea",
+      "sourceOrder": 70002,
+      "title": "철구 \" 정신차리지말고 트레이드로 꺼져주면 안돼/비타밍\" 그거 알아요? 저 아무도 안사요 \" [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985053602&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 24,
+      "displayTime": "22:32",
+      "likes": 107,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 212,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:32",
+      "source": "fmkorea",
+      "sourceOrder": 70003,
+      "title": "철구) 겨 열지마요 암내나니깐 // 윤환) 안 씻었어? // 조새) 씻어도 나요 ㅋㅋㅋㅋㅋㅋㅋ [24]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985254819&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:20+09:00",
+      "comments": 12,
+      "displayTime": "22:26",
+      "likes": 138,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 220,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:26",
+      "source": "fmkorea",
+      "sourceOrder": 70004,
+      "title": "비타밍)저 하라는거 할 수 있습니다 // 음흉구)하라는거 싹다 할 수 있나요? ㅋㅋㅋㅋㅋㅋㅋ [12]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985316612&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 11,
+      "displayTime": "22:20",
+      "likes": 126,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 228,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:20",
+      "source": "fmkorea",
+      "sourceOrder": 70005,
+      "title": "족암새) 철구 : 비타밍 뭐 걸거에요 ? // 시조새 : 펜션에 통 준비 되어 있습니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [11]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985312283&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 17,
+      "displayTime": "22:16",
+      "likes": 142,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "비타밍",
+        "타밍"
+      ],
+      "order": 236,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:16",
+      "source": "fmkorea",
+      "sourceOrder": 70006,
+      "title": "비타밍) 조새님 피하지마요 같이 졌잖아요 // 철구) 궁금한게 타밍씨 캄몬에서 살릴수 있어요? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [17]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985284027&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 15,
+      "displayTime": "22:14",
+      "likes": 125,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "사테"
+      ],
+      "order": 240,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:14",
+      "source": "fmkorea",
+      "sourceOrder": 70007,
+      "title": "철구) 사테야 너 JSA 아니야? // 사테) 나 캄몬이야 // 철구) 언제 들어갔어? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985305578&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 13,
+      "displayTime": "22:10",
+      "likes": 123,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 248,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:10",
+      "source": "fmkorea",
+      "sourceOrder": 70008,
+      "title": "눈빛 주고 받는 갱이다,비타밍 [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985295293&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 5,
+      "displayTime": "22:10",
+      "likes": 103,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 252,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "22:10",
+      "source": "fmkorea",
+      "sourceOrder": 70009,
+      "title": "김윤환 : 어차피 이새끼 돈이잖아! 우린 안신나. / 철구 : 씨익~ 웃는것봐 씨발 [5]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985178441&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 12,
+      "displayTime": "21:57",
+      "likes": 116,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 184,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:57",
+      "source": "fmkorea",
+      "sourceOrder": 80000,
+      "title": "최세상 경기력에 방언터진 김윤환 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985193759&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 28,
+      "displayTime": "21:45",
+      "likes": 226,
+      "matchedGroups": [
+        "낭니"
+      ],
+      "matchedKeywords": [
+        "낭니"
+      ],
+      "order": 188,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:45",
+      "source": "fmkorea",
+      "sourceOrder": 80001,
+      "title": "조새 뒷통수 때리는 철구 본 낭니,내가먼지ㅋㅋ [28]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985199994&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 30,
+      "displayTime": "21:45",
+      "likes": 204,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 192,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:45",
+      "source": "fmkorea",
+      "sourceOrder": 80002,
+      "title": "투신: 스타 누구한테 배웠어요 / 구루미: 고석현,김성대,김윤환,박재혁 끝 / 투신: 끝이야? 이제 거기에 박성준도 추가될거에요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [30]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985196230&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 19,
+      "displayTime": "21:41",
+      "likes": 105,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "임조이",
+        "조이"
+      ],
+      "order": 196,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:41",
+      "source": "fmkorea",
+      "sourceOrder": 80003,
+      "title": "오늘도 쇼츠를 찍는 임조이 ㅋㅋㅋㅋㅋㅋㅋ [19]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984939278&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 13,
+      "displayTime": "21:36",
+      "likes": 124,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 200,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:36",
+      "source": "fmkorea",
+      "sourceOrder": 80004,
+      "title": "김윤환) 봤어? 이게900점이야 너 배팅은 옳았어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985104352&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 21,
+      "displayTime": "21:32",
+      "likes": 169,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "토마토",
+        "마토"
+      ],
+      "order": 212,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:32",
+      "source": "fmkorea",
+      "sourceOrder": 80005,
+      "title": "토마토) 나여 캄몬은 암마토라니깐 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [21]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985162764&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:21+09:00",
+      "comments": 60,
+      "displayTime": "21:30",
+      "likes": 188,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "임조이",
+        "조이"
+      ],
+      "order": 216,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:30",
+      "source": "fmkorea",
+      "sourceOrder": 80006,
+      "title": "나다개장수) 재혁 : 임조이 존나 잘하구만 뭘 자꾸 속지 말라는거야 이기고 왓는데 우씨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [60]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985135059&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 5,
+      "displayTime": "21:19",
+      "likes": 140,
+      "matchedGroups": [
+        "낭니"
+      ],
+      "matchedKeywords": [
+        "낭니"
+      ],
+      "order": 228,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:19",
+      "source": "fmkorea",
+      "sourceOrder": 80007,
+      "title": "낭니) 철구오빠 진다며 겜 갔다며? 개 웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985111199&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 23,
+      "displayTime": "21:18",
+      "likes": 249,
+      "matchedGroups": [
+        "김윤환",
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환",
+        "마토"
+      ],
+      "order": 232,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "21:18",
+      "source": "fmkorea",
+      "sourceOrder": 80008,
+      "title": "족암새) 김윤환 : 마토 화 ... 이게 습관이야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [23]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985114677&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 16,
+      "displayTime": "20:58",
+      "likes": 166,
+      "matchedGroups": [
+        "먼진"
+      ],
+      "matchedKeywords": [
+        "먼진"
+      ],
+      "order": 244,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "20:58",
+      "source": "fmkorea",
+      "sourceOrder": 80009,
+      "title": "[학버드] 먼진 : 학수님 // 김학수 : 팀장한테 선긋네?? // 먼진: ?? 뭐라 부르지??? // 김학수 : 삼촌이라고 해 // 먼진 : 학수 삼촌 [16]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985024118&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 7,
+      "displayTime": "20:54",
+      "likes": 103,
+      "matchedGroups": [
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "사테"
+      ],
+      "order": 248,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "20:54",
+      "source": "fmkorea",
+      "sourceOrder": 80010,
+      "title": "시조새 : 갱이다는 락입니다 // 사테 : 니가 뭔데 락을 시키는데 // 갱이다 : 학생회장 바뀔수도 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [7]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984937787&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 56,
+      "displayTime": "20:36",
+      "likes": 177,
+      "matchedGroups": [
+        "임조이"
+      ],
+      "matchedKeywords": [
+        "임조이",
+        "조이"
+      ],
+      "order": 184,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:36",
+      "source": "fmkorea",
+      "sourceOrder": 90000,
+      "title": "임조이 쇼츠 찍으면서 사기치는중 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [56]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984942150&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 5,
+      "displayTime": "20:34",
+      "likes": 116,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 188,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:34",
+      "source": "fmkorea",
+      "sourceOrder": 90001,
+      "title": "김윤환: 경비 아저씨에요 ? 하는일이 뭐에요 ? // 학수 : 그쪽은 경매 망한팀 아니에요 ? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984785181&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 23,
+      "displayTime": "20:31",
+      "likes": 159,
+      "matchedGroups": [
+        "먼진"
+      ],
+      "matchedKeywords": [
+        "먼진"
+      ],
+      "order": 192,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:31",
+      "source": "fmkorea",
+      "sourceOrder": 90002,
+      "title": "오늘도 패배한 먼진방 채팅창jpg [23]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984930737&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 4,
+      "displayTime": "20:30",
+      "likes": 99,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 196,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:30",
+      "source": "fmkorea",
+      "sourceOrder": 90003,
+      "title": "철구) 아 벙커 안닿네.. // 김윤환) 괜찮아~ 닿는걸로 알거야ㅋㅋㅋㅋㅋㅋ [4]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984920332&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:22+09:00",
+      "comments": 15,
+      "displayTime": "20:19",
+      "likes": 177,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 224,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:19",
+      "source": "fmkorea",
+      "sourceOrder": 90004,
+      "title": "철구) 오늘 멤버가 벌레 먹이면 신선해 이새끼부터가 신선해 // 윤환) 아직 경험해보지 못했습니다 예 [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984878599&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 15,
+      "displayTime": "20:14",
+      "likes": 113,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 228,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:14",
+      "source": "fmkorea",
+      "sourceOrder": 90005,
+      "title": "런하는 김윤환 끌고 오는 시조새 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984824706&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 16,
+      "displayTime": "20:13",
+      "likes": 98,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 232,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:13",
+      "source": "fmkorea",
+      "sourceOrder": 90006,
+      "title": "시조새한테 끌려오는 김윤환 ㅋㅋㅋㅋ [16]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984824922&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 18,
+      "displayTime": "20:10",
+      "likes": 148,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "코치진",
+        "진땅콩"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "박수범",
+        "수범",
+        "현제",
+        "땅콩"
+      ],
+      "order": 236,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:10",
+      "source": "fmkorea",
+      "sourceOrder": 90007,
+      "title": "캄몬) 박수범 : 땅콩이 발전 없으면 내일도 있자 현제야 / 변들짝 : 게임하러 가야돼 ㅋㅋㅋㅋ [18]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984840811&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 30,
+      "displayTime": "20:05",
+      "likes": 163,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 240,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:05",
+      "source": "fmkorea",
+      "sourceOrder": 90008,
+      "title": "김윤환 시그 시키는 시조새 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [30]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984821994&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 21,
+      "displayTime": "20:05",
+      "likes": 161,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "타밍"
+      ],
+      "order": 244,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:05",
+      "source": "fmkorea",
+      "sourceOrder": 90009,
+      "title": "철구) 타밍아 너 대학 어디야? // 타밍) 저 캄몬이요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [21]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984737616&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-06-22T13:44:23+09:00",
+      "comments": 9,
+      "displayTime": "20:02",
+      "likes": 93,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "김윤환",
+        "윤환"
+      ],
+      "order": 252,
+      "pageNo": 10,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=10",
+      "postedText": "20:02",
+      "source": "fmkorea",
+      "sourceOrder": 90010,
+      "title": "철구 : 뉴다한테 지면 자결한다는 마인드 // 김윤환 : 여기 옥상가서 뒤로 뛰어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984760022&listStyle=webzine",
+      "views": 0
+    },
     {
       "collectedAt": "2026-06-22T13:45:08+09:00",
       "comments": 0,
@@ -23,1866 +1975,6 @@
       "title": "비타밍 : 센세가 벌레 먹는게 싫더라구요...",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986342885&listStyle=webzine",
       "views": 1
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 2,
-      "displayTime": "13:14",
-      "likes": 29,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 185,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "13:14",
-      "source": "fmkorea",
-      "sourceOrder": 0,
-      "title": "족암새) 김윤환 : 그대로 나가서 집에가서 쳐 자 / 철구 : 모니터는 바꿔라 ㅋㅋㅋㅋㅋㅋㅋㅋ [2]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986167483&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 0,
-      "displayTime": "13:10",
-      "likes": 35,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 189,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "13:10",
-      "source": "fmkorea",
-      "sourceOrder": 1,
-      "title": "김윤환) 조새도 현타왔어 방송은 하는데 왜 손해만 보는 표정이야 // 갱이다) 이러고 일본은 어떻게 가시지?",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986203810&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 1,
-      "displayTime": "12:41",
-      "likes": 48,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 197,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "12:41",
-      "source": "fmkorea",
-      "sourceOrder": 2,
-      "title": "족암새) 김윤환 : 세팅 ㅈ같네 // 시조새 : 4드론은 세팅이 아니잖아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [1]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986122434&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 7,
-      "displayTime": "12:31",
-      "likes": 60,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 201,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "12:31",
-      "source": "fmkorea",
-      "sourceOrder": 3,
-      "title": "정윤종) 김윤환이 반도체 사면 그때 바로 판다 ㅋㅋㅋㅋㅋㅋ [7]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9987164793&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 6,
-      "displayTime": "12:30",
-      "likes": 51,
-      "matchedGroups": [
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "지두두",
-        "두두"
-      ],
-      "order": 205,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "12:30",
-      "source": "fmkorea",
-      "sourceOrder": 4,
-      "title": "지두두 근황 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [6]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986070273&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 11,
-      "displayTime": "02:05",
-      "likes": 48,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 209,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "02:05",
-      "source": "fmkorea",
-      "sourceOrder": 5,
-      "title": "벌레 먹는 김윤환 보는 졈니 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [11]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986104581&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 13,
-      "displayTime": "12:07",
-      "likes": 48,
-      "matchedGroups": [
-        "캄몬스타즈"
-      ],
-      "matchedKeywords": [
-        "캄몬스타즈",
-        "캄 몬스타즈",
-        "캄몬"
-      ],
-      "order": 213,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "12:07",
-      "source": "fmkorea",
-      "sourceOrder": 6,
-      "title": "시조새) 맨날 세팅이야 당신이 뭐 닥터고블린이야? 캄몬스타즈 디코나 고쳐 ㅋㅋㅋㅋㅋㅋ [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986183143&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 2,
-      "displayTime": "11:09",
-      "likes": 80,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 233,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "11:09",
-      "source": "fmkorea",
-      "sourceOrder": 7,
-      "title": "철구 윤환 협상결렬 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [2]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986085259&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 6,
-      "displayTime": "11:06",
-      "likes": 49,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "지동원"
-      ],
-      "order": 237,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "11:06",
-      "source": "fmkorea",
-      "sourceOrder": 8,
-      "title": "지동원) 저기.... 제 게임을 6분에 처음 봤다는데 맞나요?? [6]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985891064&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 5,
-      "displayTime": "10:56",
-      "likes": 65,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "조이"
-      ],
-      "order": 245,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "10:56",
-      "source": "fmkorea",
-      "sourceOrder": 9,
-      "title": "조이) 나 빌드 패싱했어 ㅅㅂ 죄송해요 재혁썜 // 박재혁) 아니야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986199790&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 2,
-      "displayTime": "10:39",
-      "likes": 62,
-      "matchedGroups": [
-        "김윤환",
-        "임조이",
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환",
-        "임조이",
-        "조이",
-        "비타밍",
-        "타밍"
-      ],
-      "order": 249,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "10:39",
-      "source": "fmkorea",
-      "sourceOrder": 10,
-      "title": "시조새) 난 공다츠 비타밍 임조이 넌 누구야 최세상) 키링이요 김윤환) 500개 가자 [2]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986120502&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 1,
-      "displayTime": "10:31",
-      "likes": 59,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 253,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "10:31",
-      "source": "fmkorea",
-      "sourceOrder": 11,
-      "title": "김윤환 : 조새씨한테 고마운게 많네, 오늘 시조새 욕하는 애들 다 쳐내 ! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [1]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985646040&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:16+09:00",
-      "comments": 17,
-      "displayTime": "10:14",
-      "likes": 80,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 257,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
-      "postedText": "10:14",
-      "source": "fmkorea",
-      "sourceOrder": 12,
-      "title": "김윤환 걱정뿐인 지수...ㅠㅠㅠㅠㅠㅠ [17]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986097468&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 3,
-      "displayTime": "10:08",
-      "likes": 56,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "임조이",
-        "조이"
-      ],
-      "order": 176,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "10:08",
-      "source": "fmkorea",
-      "sourceOrder": 10000,
-      "title": "임조이) 잠깐만 한명이 달라졌는데 분위기가 달라졌다고? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986229059&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 9,
-      "displayTime": "09:47",
-      "likes": 79,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 200,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "09:47",
-      "source": "fmkorea",
-      "sourceOrder": 10001,
-      "title": "김윤환) 우리 지금 다 손해봤고 집에서 합시다 // 시조새) 우리 절대 다시 모이지말자 ㅋㅋㅋㅋㅋㅋㅋ [9]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986240457&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 29,
-      "displayTime": "09:18",
-      "likes": 90,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "조이"
-      ],
-      "order": 208,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "09:18",
-      "source": "fmkorea",
-      "sourceOrder": 10002,
-      "title": "나다개장수) 조이팔에게 속은 두명 추가 ㅋㅋㅋㅋㅋ [29]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986249645&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 5,
-      "displayTime": "08:20",
-      "likes": 62,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 220,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "08:20",
-      "source": "fmkorea",
-      "sourceOrder": 10003,
-      "title": "족암새) 88걸리고 족구에게 채팅으로 샤킹치는 김윤환 ㅋㅋㅋ [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985399207&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 15,
-      "displayTime": "08:12",
-      "likes": 107,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "사테"
-      ],
-      "order": 224,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "08:12",
-      "source": "fmkorea",
-      "sourceOrder": 10004,
-      "title": "족암새) 비겁환 : 사테가 4드론 시켰다 // 사테 : 내가 언제 !! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986067637&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 11,
-      "displayTime": "08:08",
-      "likes": 74,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "지두두",
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "지두두",
-        "두두",
-        "임조이",
-        "조이"
-      ],
-      "order": 232,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "08:08",
-      "source": "fmkorea",
-      "sourceOrder": 10005,
-      "title": "캄몬) 임조이 뮤짤보고 이걸보고도 어캐 안속냐는 지두두 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [11]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986193382&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 8,
-      "displayTime": "08:08",
-      "likes": 59,
-      "matchedGroups": [
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "토마토",
-        "마토"
-      ],
-      "order": 236,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "08:08",
-      "source": "fmkorea",
-      "sourceOrder": 10006,
-      "title": "토마토) 이 빌드 왜 한지 아십니까 철구오빠 대학에 단 1승이였던 그 빌드 했습니다 철와대떄 철구오빠 1승밖에 못해줬거든요 [8]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985169849&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 10,
-      "displayTime": "07:52",
-      "likes": 64,
-      "matchedGroups": [
-        "김윤환",
-        "코치진",
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환",
-        "참치",
-        "지두두",
-        "두두"
-      ],
-      "order": 240,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "07:52",
-      "source": "fmkorea",
-      "sourceOrder": 10007,
-      "title": "김윤환 4드론 막는 참치에 좋아죽는 지두두 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [10]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986046331&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:17+09:00",
-      "comments": 11,
-      "displayTime": "07:11",
-      "likes": 78,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "비타밍",
-        "타밍"
-      ],
-      "order": 244,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
-      "postedText": "07:11",
-      "source": "fmkorea",
-      "sourceOrder": 10008,
-      "title": "캄몬)조새 시그까지 잘추는 비타밍 [11]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984840603&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 12,
-      "displayTime": "06:36",
-      "likes": 82,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "임조이",
-        "진땅콩"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "임조이",
-        "조이",
-        "진땅콩",
-        "땅콩"
-      ],
-      "order": 188,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "06:36",
-      "source": "fmkorea",
-      "sourceOrder": 20000,
-      "title": "캄몬) 임조이 드랍보고 두손놓고 눈비비는 진땅콩ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985778477&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 13,
-      "displayTime": "06:35",
-      "likes": 91,
-      "matchedGroups": [
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "마토"
-      ],
-      "order": 192,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "06:35",
-      "source": "fmkorea",
-      "sourceOrder": 20001,
-      "title": "마토) 나도 벌레 못먹어 살려고 먹는거야 그때 10만명이 나락 꺼져 도배 치는데 못먹겠냐 [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986115533&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 2,
-      "displayTime": "06:14",
-      "likes": 61,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "지동원"
-      ],
-      "order": 196,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "06:14",
-      "source": "fmkorea",
-      "sourceOrder": 20002,
-      "title": "기뉴다:전태규 왜 맞라인 2천개 안줘?야 지동원 받아와 //지동원:받아오면 뽀찌주나요?// 졈니:주겠냐? [2]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985169047&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 41,
-      "displayTime": "06:05",
-      "likes": 85,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "임조이",
-        "조이"
-      ],
-      "order": 200,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "06:05",
-      "source": "fmkorea",
-      "sourceOrder": 20003,
-      "title": "나다개장수) 박재혁 : 와 임조이 미쳣다 존나 잘한다! ㅋㅋㅋㅋㅋㅋㅋ [41]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986204023&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 17,
-      "displayTime": "05:42",
-      "likes": 81,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 208,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "05:42",
-      "source": "fmkorea",
-      "sourceOrder": 20004,
-      "title": "족암새) 시원하게 밀웜 먹는 비타밍 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [17]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986098108&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 13,
-      "displayTime": "05:24",
-      "likes": 115,
-      "matchedGroups": [
-        "김윤환",
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환",
-        "토마토",
-        "마토"
-      ],
-      "order": 212,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "05:24",
-      "source": "fmkorea",
-      "sourceOrder": 20005,
-      "title": "김윤환 벌레먹방 보는 토마토 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986110356&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 10,
-      "displayTime": "04:01",
-      "likes": 90,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 224,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "04:01",
-      "source": "fmkorea",
-      "sourceOrder": 20006,
-      "title": "윤환) 넌 감정이 없냐?? // 철구) 전 수장 역할하잖아요 넌 뭐했는데? // 조새) 방 빌려줬어요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [10]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985193358&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 8,
-      "displayTime": "02:40",
-      "likes": 77,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 252,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
-      "postedText": "02:40",
-      "source": "fmkorea",
-      "sourceOrder": 20007,
-      "title": "족암새) 윤환 : 모니터가 .... / 족구 : 나도 사실 스파이어 지었어 ㅋㅋㅋㅋㅋㅋㅋㅋ [8]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985882278&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 9,
-      "displayTime": "02:33",
-      "likes": 80,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "철벽"
-      ],
-      "order": 176,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:33",
-      "source": "fmkorea",
-      "sourceOrder": 30000,
-      "title": "투신: 구루미 롤ck도 나간다고? 뭐야 철벽친거잖아 아까 채팅 쳐줬으면 멘트라도 한번 더 치는데 그런건 상처 안받고 더 재밌게하지 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985833642&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 7,
-      "displayTime": "02:24",
-      "likes": 109,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "김윤환",
-        "윤환"
-      ],
-      "order": 180,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:24",
-      "source": "fmkorea",
-      "sourceOrder": 30001,
-      "title": "철구 : 캄몬 벌레투입하시죠 // 김윤환 : 잃을게 없습니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [7]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986112160&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 11,
-      "displayTime": "02:18",
-      "likes": 80,
-      "matchedGroups": [
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "지두두",
-        "두두"
-      ],
-      "order": 192,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:18",
-      "source": "fmkorea",
-      "sourceOrder": 30002,
-      "title": "참교육) 지두두: 라니언니 저 1.25는 뭐지? / 기뉴다: 회장님 떠난날잖가? / 퀸주: 헉..... [11]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985744168&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 25,
-      "displayTime": "02:17",
-      "likes": 250,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 196,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:17",
-      "source": "fmkorea",
-      "sourceOrder": 30003,
-      "title": "족암새) 김윤환 : 야 이 새끼야 처음 본 사람을 12시간 징용하냐 / 철구 : 수용소도 이렇게 안해 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [25]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986126960&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 32,
-      "displayTime": "02:11",
-      "likes": 215,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "두두"
-      ],
-      "order": 208,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:11",
-      "source": "fmkorea",
-      "sourceOrder": 30004,
-      "title": "철구 : 이제 캄몬 벌레 도입 되는건가요? // 두두 : 아 센세... 센세! 눈이 왜 이래!! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [32]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986115263&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 28,
-      "displayTime": "02:09",
-      "likes": 230,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "토마토",
-        "마토"
-      ],
-      "order": 212,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:09",
-      "source": "fmkorea",
-      "sourceOrder": 30005,
-      "title": "캄몬) 토마토 : 야 ㅈ댓다 밀웜 벌칙 해금 됐다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [28]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986107894&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 8,
-      "displayTime": "02:05",
-      "likes": 124,
-      "matchedGroups": [
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "지두두",
-        "두두"
-      ],
-      "order": 216,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "02:05",
-      "source": "fmkorea",
-      "sourceOrder": 30006,
-      "title": "기뉴다vs쭈글투라니 듣고있는 지두두시점ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [8]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985864048&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 16,
-      "displayTime": "01:55",
-      "likes": 216,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 220,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "01:55",
-      "source": "fmkorea",
-      "sourceOrder": 30007,
-      "title": "철구 김윤환 몸싸움 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [16]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986080785&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 5,
-      "displayTime": "01:43",
-      "likes": 103,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "지동원"
-      ],
-      "order": 228,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "01:43",
-      "source": "fmkorea",
-      "sourceOrder": 30008,
-      "title": "뉴다)2라니 캠켜 이새꺄 //지동원)내 경기 리딸 할것도 없겠네 ㅆㅂ 내내 2라니만 ㅈㄴ 팼겠네 ㅋㅋㅋ [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985896000&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 3,
-      "displayTime": "01:38",
-      "likes": 85,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 232,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "01:38",
-      "source": "fmkorea",
-      "sourceOrder": 30009,
-      "title": "철구) 타밍아 고맙다 // 비타밍) 괜찮아요 // 철구) 이게 팀이야 ㅋㅋㅋㅋㅋㅋㅋ [3]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985831639&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:18+09:00",
-      "comments": 3,
-      "displayTime": "01:33",
-      "likes": 88,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 236,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "01:33",
-      "source": "fmkorea",
-      "sourceOrder": 30010,
-      "title": "최세상) 나 사업 어떘어? // 윤환) 우린 이제 트레이트 없다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985936814&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 7,
-      "displayTime": "01:08",
-      "likes": 93,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 176,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "01:08",
-      "source": "fmkorea",
-      "sourceOrder": 40000,
-      "title": "족암새) 졈니 잡은 최세상 / 김윤환 : 우리는 원팀이야 트레이드 없다 ㅋㅋㅋㅋㅋㅋ [7]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985935567&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 9,
-      "displayTime": "01:04",
-      "likes": 152,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 180,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "01:04",
-      "source": "fmkorea",
-      "sourceOrder": 40001,
-      "title": "족암새) 철구 : 박수를 몇 번 치는거에요? // 김윤환 : 물빨 할 때 받아 아까 채팅 다시 보여줘 ? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985951479&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 9,
-      "displayTime": "00:48",
-      "likes": 176,
-      "matchedGroups": [
-        "김윤환",
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환",
-        "비타밍",
-        "타밍"
-      ],
-      "order": 184,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "00:48",
-      "source": "fmkorea",
-      "sourceOrder": 40002,
-      "title": "족암새) 김윤환 : 우리 원팀이야 ! // 비타밍 : 자기 질 때만 원팀이야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985900783&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 22,
-      "displayTime": "00:04",
-      "likes": 131,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "코치진",
-        "진땅콩"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "변현제",
-        "현제",
-        "땅콩"
-      ],
-      "order": 216,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "00:04",
-      "source": "fmkorea",
-      "sourceOrder": 40003,
-      "title": "캄몬) 보법이 다른 AB형 변현제 - 땅콩아 너가 캄몬 6,7티어를 때려잡아서 걔네들도 열심히 하게 하는거야 [22]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985695687&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 7,
-      "displayTime": "00:01",
-      "likes": 111,
-      "matchedGroups": [
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "마토"
-      ],
-      "order": 224,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "00:01",
-      "source": "fmkorea",
-      "sourceOrder": 40004,
-      "title": "구루미) 마토가 640원이래 // 막현) 우리 모두를 합쳐도 640원이 안돼 // 이유란) 우리 다 합쳐도 마토한테 안돼 시발 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [7]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985688364&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 4,
-      "displayTime": "23:55",
-      "likes": 90,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 232,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "23:55",
-      "source": "fmkorea",
-      "sourceOrder": 40005,
-      "title": "족암새) 시조새 : 세상이가 스타도 못하고 방송도 못하고 // 김윤환 : 그건 맞는데 ㅈ까이 생겼나 보지 ㅋㅋㅋㅋㅋㅋㅋ [4]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985552643&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 28,
-      "displayTime": "23:48",
-      "likes": 114,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 236,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "23:48",
-      "source": "fmkorea",
-      "sourceOrder": 40006,
-      "title": "기뉴다 \"윤환이한테 대학대전처럼 각자 켜보자고 이야기했다\" [28]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985646212&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:19+09:00",
-      "comments": 12,
-      "displayTime": "23:39",
-      "likes": 121,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 248,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "23:39",
-      "source": "fmkorea",
-      "sourceOrder": 40007,
-      "title": "족암새) 시조새 : 윤환이형 한마디 하세요 좀 더 이야기 하세요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985630472&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 14,
-      "displayTime": "23:21",
-      "likes": 108,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 192,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "23:21",
-      "source": "fmkorea",
-      "sourceOrder": 50000,
-      "title": "족암새) 철구 : 나 김우빈, 유노윤호 닮았다는 소리 // 김윤환 : 배쏘영남 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [14]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985559527&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 10,
-      "displayTime": "23:13",
-      "likes": 105,
-      "matchedGroups": [
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "토마토",
-        "마토"
-      ],
-      "order": 196,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "23:13",
-      "source": "fmkorea",
-      "sourceOrder": 50001,
-      "title": "뉴캄옥션 철구 픽 영도 보는 토마토 ㅋㅋㅋㅋㅋㅋㅋ [10]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984683878&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 20,
-      "displayTime": "22:58",
-      "likes": 102,
-      "matchedGroups": [
-        "코치진",
-        "지두두"
-      ],
-      "matchedKeywords": [
-        "지동원",
-        "지두두",
-        "두두"
-      ],
-      "order": 204,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "22:58",
-      "source": "fmkorea",
-      "sourceOrder": 50002,
-      "title": "테테전 개념싸움 지동원 vs 지두두 [20]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985434091&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 15,
-      "displayTime": "22:39",
-      "likes": 96,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "임조이",
-        "조이"
-      ],
-      "order": 232,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "22:39",
-      "source": "fmkorea",
-      "sourceOrder": 50003,
-      "title": "캄몬,나다개장수)이윤열도 박수치게 만드는 쇼츠저그 임조이 [15]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984975492&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 13,
-      "displayTime": "22:33",
-      "likes": 171,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 236,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "22:33",
-      "source": "fmkorea",
-      "sourceOrder": 50004,
-      "title": "철구 \" 정신차리지말고 트레이드로 꺼져주면 안돼/비타밍\" 그거 알아요? 저 아무도 안사요 \" [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985053602&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 24,
-      "displayTime": "22:32",
-      "likes": 106,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 240,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "22:32",
-      "source": "fmkorea",
-      "sourceOrder": 50005,
-      "title": "철구) 겨 열지마요 암내나니깐 // 윤환) 안 씻었어? // 조새) 씻어도 나요 ㅋㅋㅋㅋㅋㅋㅋ [24]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985254819&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:20+09:00",
-      "comments": 12,
-      "displayTime": "22:26",
-      "likes": 137,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 248,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "22:26",
-      "source": "fmkorea",
-      "sourceOrder": 50006,
-      "title": "비타밍)저 하라는거 할 수 있습니다 // 음흉구)하라는거 싹다 할 수 있나요? ㅋㅋㅋㅋㅋㅋㅋ [12]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985316612&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 11,
-      "displayTime": "22:20",
-      "likes": 124,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 176,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "22:20",
-      "source": "fmkorea",
-      "sourceOrder": 60000,
-      "title": "족암새) 철구 : 비타밍 뭐 걸거에요 ? // 시조새 : 펜션에 통 준비 되어 있습니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [11]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985312283&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 17,
-      "displayTime": "22:16",
-      "likes": 141,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "비타밍",
-        "타밍"
-      ],
-      "order": 184,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "22:16",
-      "source": "fmkorea",
-      "sourceOrder": 60001,
-      "title": "비타밍) 조새님 피하지마요 같이 졌잖아요 // 철구) 궁금한게 타밍씨 캄몬에서 살릴수 있어요? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [17]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985284027&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 15,
-      "displayTime": "22:14",
-      "likes": 123,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "사테"
-      ],
-      "order": 188,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "22:14",
-      "source": "fmkorea",
-      "sourceOrder": 60002,
-      "title": "철구) 사테야 너 JSA 아니야? // 사테) 나 캄몬이야 // 철구) 언제 들어갔어? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985305578&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 13,
-      "displayTime": "22:10",
-      "likes": 120,
-      "matchedGroups": [
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "비타밍",
-        "타밍"
-      ],
-      "order": 196,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "22:10",
-      "source": "fmkorea",
-      "sourceOrder": 60003,
-      "title": "눈빛 주고 받는 갱이다,비타밍 [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985295293&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 5,
-      "displayTime": "22:10",
-      "likes": 101,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 200,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "22:10",
-      "source": "fmkorea",
-      "sourceOrder": 60004,
-      "title": "김윤환 : 어차피 이새끼 돈이잖아! 우린 안신나. / 철구 : 씨익~ 웃는것봐 씨발 [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985178441&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 12,
-      "displayTime": "21:57",
-      "likes": 114,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 212,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:57",
-      "source": "fmkorea",
-      "sourceOrder": 60005,
-      "title": "최세상 경기력에 방언터진 김윤환 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [12]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985193759&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 28,
-      "displayTime": "21:45",
-      "likes": 222,
-      "matchedGroups": [
-        "낭니"
-      ],
-      "matchedKeywords": [
-        "낭니"
-      ],
-      "order": 216,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:45",
-      "source": "fmkorea",
-      "sourceOrder": 60006,
-      "title": "조새 뒷통수 때리는 철구 본 낭니,내가먼지ㅋㅋ [28]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985199994&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 30,
-      "displayTime": "21:45",
-      "likes": 201,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 220,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:45",
-      "source": "fmkorea",
-      "sourceOrder": 60007,
-      "title": "투신: 스타 누구한테 배웠어요 / 구루미: 고석현,김성대,김윤환,박재혁 끝 / 투신: 끝이야? 이제 거기에 박성준도 추가될거에요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [30]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985196230&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 19,
-      "displayTime": "21:41",
-      "likes": 104,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "임조이",
-        "조이"
-      ],
-      "order": 224,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:41",
-      "source": "fmkorea",
-      "sourceOrder": 60008,
-      "title": "오늘도 쇼츠를 찍는 임조이 ㅋㅋㅋㅋㅋㅋㅋ [19]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984939278&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 13,
-      "displayTime": "21:36",
-      "likes": 123,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 228,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:36",
-      "source": "fmkorea",
-      "sourceOrder": 60009,
-      "title": "김윤환) 봤어? 이게900점이야 너 배팅은 옳았어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [13]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985104352&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 21,
-      "displayTime": "21:32",
-      "likes": 166,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "토마토",
-        "마토"
-      ],
-      "order": 240,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:32",
-      "source": "fmkorea",
-      "sourceOrder": 60010,
-      "title": "토마토) 나여 캄몬은 암마토라니깐 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [21]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985162764&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:21+09:00",
-      "comments": 59,
-      "displayTime": "21:30",
-      "likes": 181,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "임조이",
-        "조이"
-      ],
-      "order": 244,
-      "pageNo": 7,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
-      "postedText": "21:30",
-      "source": "fmkorea",
-      "sourceOrder": 60011,
-      "title": "나다개장수) 재혁 : 임조이 존나 잘하구만 뭘 자꾸 속지 말라는거야 이기고 왓는데 우씨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [59]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985135059&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 5,
-      "displayTime": "21:19",
-      "likes": 140,
-      "matchedGroups": [
-        "낭니"
-      ],
-      "matchedKeywords": [
-        "낭니"
-      ],
-      "order": 176,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "21:19",
-      "source": "fmkorea",
-      "sourceOrder": 70000,
-      "title": "낭니) 철구오빠 진다며 겜 갔다며? 개 웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985111199&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 23,
-      "displayTime": "21:18",
-      "likes": 245,
-      "matchedGroups": [
-        "김윤환",
-        "토마토"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환",
-        "마토"
-      ],
-      "order": 180,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "21:18",
-      "source": "fmkorea",
-      "sourceOrder": 70001,
-      "title": "족암새) 김윤환 : 마토 화 ... 이게 습관이야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [23]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985114677&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 16,
-      "displayTime": "20:58",
-      "likes": 162,
-      "matchedGroups": [
-        "먼진"
-      ],
-      "matchedKeywords": [
-        "먼진"
-      ],
-      "order": 192,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:58",
-      "source": "fmkorea",
-      "sourceOrder": 70002,
-      "title": "[학버드] 먼진 : 학수님 // 김학수 : 팀장한테 선긋네?? // 먼진: ?? 뭐라 부르지??? // 김학수 : 삼촌이라고 해 // 먼진 : 학수 삼촌 [16]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9985024118&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 7,
-      "displayTime": "20:54",
-      "likes": 102,
-      "matchedGroups": [
-        "코치진"
-      ],
-      "matchedKeywords": [
-        "사테"
-      ],
-      "order": 196,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:54",
-      "source": "fmkorea",
-      "sourceOrder": 70003,
-      "title": "시조새 : 갱이다는 락입니다 // 사테 : 니가 뭔데 락을 시키는데 // 갱이다 : 학생회장 바뀔수도 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [7]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984937787&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 55,
-      "displayTime": "20:36",
-      "likes": 174,
-      "matchedGroups": [
-        "임조이"
-      ],
-      "matchedKeywords": [
-        "임조이",
-        "조이"
-      ],
-      "order": 212,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:36",
-      "source": "fmkorea",
-      "sourceOrder": 70004,
-      "title": "임조이 쇼츠 찍으면서 사기치는중 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [55]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984942150&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 5,
-      "displayTime": "20:34",
-      "likes": 114,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 216,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:34",
-      "source": "fmkorea",
-      "sourceOrder": 70005,
-      "title": "김윤환: 경비 아저씨에요 ? 하는일이 뭐에요 ? // 학수 : 그쪽은 경매 망한팀 아니에요 ? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984785181&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 23,
-      "displayTime": "20:31",
-      "likes": 158,
-      "matchedGroups": [
-        "먼진"
-      ],
-      "matchedKeywords": [
-        "먼진"
-      ],
-      "order": 220,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:31",
-      "source": "fmkorea",
-      "sourceOrder": 70006,
-      "title": "오늘도 패배한 먼진방 채팅창jpg [23]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984930737&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 4,
-      "displayTime": "20:30",
-      "likes": 97,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 224,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:30",
-      "source": "fmkorea",
-      "sourceOrder": 70007,
-      "title": "철구) 아 벙커 안닿네.. // 김윤환) 괜찮아~ 닿는걸로 알거야ㅋㅋㅋㅋㅋㅋ [4]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984920332&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:22+09:00",
-      "comments": 15,
-      "displayTime": "20:19",
-      "likes": 173,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "윤환"
-      ],
-      "order": 252,
-      "pageNo": 8,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
-      "postedText": "20:19",
-      "source": "fmkorea",
-      "sourceOrder": 70008,
-      "title": "철구) 오늘 멤버가 벌레 먹이면 신선해 이새끼부터가 신선해 // 윤환) 아직 경험해보지 못했습니다 예 [15]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984878599&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 15,
-      "displayTime": "20:14",
-      "likes": 111,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 176,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:14",
-      "source": "fmkorea",
-      "sourceOrder": 80000,
-      "title": "런하는 김윤환 끌고 오는 시조새 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [15]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984824706&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 16,
-      "displayTime": "20:13",
-      "likes": 98,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 180,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:13",
-      "source": "fmkorea",
-      "sourceOrder": 80001,
-      "title": "시조새한테 끌려오는 김윤환 ㅋㅋㅋㅋ [16]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984824922&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 18,
-      "displayTime": "20:10",
-      "likes": 145,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "코치진",
-        "진땅콩"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "박수범",
-        "수범",
-        "현제",
-        "땅콩"
-      ],
-      "order": 184,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:10",
-      "source": "fmkorea",
-      "sourceOrder": 80002,
-      "title": "캄몬) 박수범 : 땅콩이 발전 없으면 내일도 있자 현제야 / 변들짝 : 게임하러 가야돼 ㅋㅋㅋㅋ [18]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984840811&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 30,
-      "displayTime": "20:05",
-      "likes": 161,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 188,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:05",
-      "source": "fmkorea",
-      "sourceOrder": 80003,
-      "title": "김윤환 시그 시키는 시조새 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [30]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984821994&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 21,
-      "displayTime": "20:05",
-      "likes": 159,
-      "matchedGroups": [
-        "캄몬스타즈",
-        "비타밍"
-      ],
-      "matchedKeywords": [
-        "캄몬",
-        "타밍"
-      ],
-      "order": 192,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:05",
-      "source": "fmkorea",
-      "sourceOrder": 80004,
-      "title": "철구) 타밍아 너 대학 어디야? // 타밍) 저 캄몬이요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [21]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984737616&listStyle=webzine",
-      "views": 0
-    },
-    {
-      "collectedAt": "2026-06-22T13:44:23+09:00",
-      "comments": 9,
-      "displayTime": "20:02",
-      "likes": 93,
-      "matchedGroups": [
-        "김윤환"
-      ],
-      "matchedKeywords": [
-        "김윤환",
-        "윤환"
-      ],
-      "order": 200,
-      "pageNo": 9,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
-      "postedText": "20:02",
-      "source": "fmkorea",
-      "sourceOrder": 80005,
-      "title": "철구 : 뉴다한테 지면 자결한다는 마인드 // 김윤환 : 여기 옥상가서 뒤로 뛰어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [9]",
-      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9984760022&listStyle=webzine",
-      "views": 0
     },
     {
       "collectedAt": "2026-06-22T13:44:23+09:00",
