@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-06-22T10:44:06+09:00",
-  "count": 239,
+  "updatedAt": "2026-06-22T10:45:42+09:00",
+  "count": 240,
   "items": [
+    {
+      "collectedAt": "2026-06-22T10:45:21+09:00",
+      "comments": 0,
+      "displayTime": "06:41",
+      "likes": 40,
+      "matchedGroups": [
+        "비타밍"
+      ],
+      "matchedKeywords": [
+        "비타밍",
+        "타밍"
+      ],
+      "order": 178,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/search.php?mid=starcraft&category=&search_keyword=%EB%B9%84%ED%83%80%EB%B0%8D+%3A+%EC%84%BC%EC%84%B8%EA%B0%80+%EB%B2%8C%EB%A0%88&search_target=title_content&page=1",
+      "postedText": "06:41",
+      "source": "fmkorea",
+      "sourceOrder": 0,
+      "title": "비타밍 : 센세가 벌레 먹는게 싫더라구요...",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=9986342885&listStyle=webzine",
+      "views": 9806
+    },
     {
       "collectedAt": "2026-06-22T10:32:39+09:00",
       "comments": 1,
