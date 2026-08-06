@@ -1,12 +1,145 @@
 {
-  "updatedAt": "2026-08-06T06:31:34+09:00",
-  "count": 135,
+  "updatedAt": "2026-08-06T20:16:30+09:00",
+  "count": 141,
   "items": [
     {
+      "collectedAt": "2026-08-06T20:16:06+09:00",
+      "comments": 6,
+      "displayTime": "20:10",
+      "likes": 47,
+      "matchedGroups": [
+        "낭니"
+      ],
+      "matchedKeywords": [
+        "낭니"
+      ],
+      "order": 183,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "postedText": "20:10",
+      "source": "fmkorea",
+      "sourceOrder": 0,
+      "title": "낭니:다같이 멤버들이랑 다녀왔고 그냥 다녀왔다고만 얘기하고 나머지에대해서 언급x [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10180157041&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-08-06T20:16:06+09:00",
+      "comments": 9,
+      "displayTime": "19:31",
+      "likes": 56,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "토마토"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "토마토",
+        "마토"
+      ],
+      "order": 199,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "postedText": "19:31",
+      "source": "fmkorea",
+      "sourceOrder": 1,
+      "title": "캄몬 토마토 공지 [9]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10179696205&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-08-06T20:16:06+09:00",
+      "comments": 68,
+      "displayTime": "17:09",
+      "likes": 350,
+      "matchedGroups": [
+        "김윤환"
+      ],
+      "matchedKeywords": [
+        "윤환"
+      ],
+      "order": 242,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "postedText": "17:09",
+      "source": "fmkorea",
+      "sourceOrder": 2,
+      "title": "케이 : 윤환아 괜찮냐? / 윤환 : 어 괜찮아. 건강챙겨라. 케이야 그만 싸워라 [68]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10179345739&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-08-06T20:16:06+09:00",
+      "comments": 33,
+      "displayTime": "17:04",
+      "likes": 114,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "낭니"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "낭니"
+      ],
+      "order": 246,
+      "pageNo": 1,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "postedText": "17:04",
+      "source": "fmkorea",
+      "sourceOrder": 3,
+      "title": "캄몬 낭니 공지 - 오늘 방송을 켤까 말까 고민을 많이했는데 [33]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10179315183&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-08-06T20:16:07+09:00",
+      "comments": 6,
+      "displayTime": "13:49",
+      "likes": 61,
+      "matchedGroups": [
+        "캄몬스타즈",
+        "코치진"
+      ],
+      "matchedKeywords": [
+        "캄몬",
+        "박준오"
+      ],
+      "order": 236,
+      "pageNo": 2,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "postedText": "13:49",
+      "source": "fmkorea",
+      "sourceOrder": 10000,
+      "title": "캄몬 박준오 공지 [6]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10178666799&listStyle=webzine",
+      "views": 0
+    },
+    {
+      "collectedAt": "2026-08-06T20:16:08+09:00",
+      "comments": 5,
+      "displayTime": "10:14",
+      "likes": 61,
+      "matchedGroups": [
+        "낭니"
+      ],
+      "matchedKeywords": [
+        "낭니"
+      ],
+      "order": 252,
+      "pageNo": 3,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "postedText": "10:14",
+      "source": "fmkorea",
+      "sourceOrder": 20000,
+      "title": "게임 지고 앞경기 정치하는 낭니 땅콩이 ㅋㅋㅋㅋㅋㅋㅋㅋ [5]",
+      "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176441841&listStyle=webzine",
+      "views": 0
+    },
+    {
       "collectedAt": "2026-08-06T06:30:59+09:00",
-      "comments": 1,
+      "comments": 4,
       "displayTime": "05:05",
-      "likes": 34,
+      "likes": 61,
       "matchedGroups": [
         "캄몬스타즈",
         "주하랑"
@@ -18,21 +151,21 @@
         "주하랑",
         "하랑"
       ],
-      "order": 147,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "order": 236,
+      "pageNo": 4,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
       "postedText": "05:05",
       "source": "fmkorea",
-      "sourceOrder": 0,
-      "title": "[ 캄몬스타즈 주하랑 공지 ] 잘 준비해서 엠비대전 꼭 이기고 오겠습니다 [1]",
+      "sourceOrder": 30000,
+      "title": "[ 캄몬스타즈 주하랑 공지 ] 잘 준비해서 엠비대전 꼭 이기고 오겠습니다 [4]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10177261223&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:30:59+09:00",
-      "comments": 17,
+      "comments": 18,
       "displayTime": "02:52",
-      "likes": 56,
+      "likes": 81,
       "matchedGroups": [
         "캄몬스타즈",
         "주하랑"
@@ -42,13 +175,13 @@
         "주하랑",
         "하랑"
       ],
-      "order": 167,
-      "pageNo": 1,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=1",
+      "order": 176,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
       "postedText": "02:52",
       "source": "fmkorea",
-      "sourceOrder": 1,
-      "title": "캄몬 주하랑 공지 - 최선을 다해서 좋은 모습 보여드리겠습니다 [17]",
+      "sourceOrder": 40000,
+      "title": "캄몬 주하랑 공지 - 최선을 다해서 좋은 모습 보여드리겠습니다 [18]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10177262057&listStyle=webzine",
       "views": 0
     },
@@ -56,19 +189,19 @@
       "collectedAt": "2026-08-06T06:31:00+09:00",
       "comments": 6,
       "displayTime": "23:42",
-      "likes": 95,
+      "likes": 120,
       "matchedGroups": [
         "낭니"
       ],
       "matchedKeywords": [
         "낭니"
       ],
-      "order": 148,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "order": 240,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
       "postedText": "23:42",
       "source": "fmkorea",
-      "sourceOrder": 10000,
+      "sourceOrder": 40001,
       "title": "낭니 : 이렇게 낙수를 주네 역시점신 / 땅콩 : 나도 게이트 16초에 짓는데 쓰레기다 어휴어휴 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [6]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176817142&listStyle=webzine",
       "views": 0
@@ -77,19 +210,19 @@
       "collectedAt": "2026-08-06T06:31:00+09:00",
       "comments": 4,
       "displayTime": "23:41",
-      "likes": 94,
+      "likes": 112,
       "matchedGroups": [
         "낭니"
       ],
       "matchedKeywords": [
         "낭니"
       ],
-      "order": 152,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "order": 244,
+      "pageNo": 5,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
       "postedText": "23:41",
       "source": "fmkorea",
-      "sourceOrder": 10001,
+      "sourceOrder": 40002,
       "title": "낭니) 저는 유스고 쌤은 프론데 저한테 떠넘기기하는거 좀 없어보여요! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [4]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176553714&listStyle=webzine",
       "views": 0
@@ -98,7 +231,7 @@
       "collectedAt": "2026-08-06T06:31:00+09:00",
       "comments": 7,
       "displayTime": "23:25",
-      "likes": 74,
+      "likes": 81,
       "matchedGroups": [
         "캄몬스타즈",
         "비타밍"
@@ -110,21 +243,21 @@
         "비타밍",
         "타밍"
       ],
-      "order": 176,
-      "pageNo": 2,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=2",
+      "order": 188,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
       "postedText": "23:25",
       "source": "fmkorea",
-      "sourceOrder": 10002,
+      "sourceOrder": 50000,
       "title": "[ 캄몬스타즈 비타밍 공지 ] 합숙동안 응원해주셔서 감사합니다 [7]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176566696&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:01+09:00",
-      "comments": 36,
+      "comments": 38,
       "displayTime": "22:51",
-      "likes": 121,
+      "likes": 140,
       "matchedGroups": [
         "캄몬스타즈",
         "코치진"
@@ -133,21 +266,21 @@
         "캄몬",
         "사테"
       ],
-      "order": 144,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "order": 236,
+      "pageNo": 6,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
       "postedText": "22:51",
       "source": "fmkorea",
-      "sourceOrder": 20000,
-      "title": "캄몬) 사테 : 누구 방송으로 하는거는 중요하지 않아 다들 한마음 한뜻으로 이길 생각밖에 없을꺼야 [36]",
+      "sourceOrder": 50001,
+      "title": "캄몬) 사테 : 누구 방송으로 하는거는 중요하지 않아 다들 한마음 한뜻으로 이길 생각밖에 없을꺼야 [38]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176543291&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:01+09:00",
-      "comments": 9,
+      "comments": 10,
       "displayTime": "21:42",
-      "likes": 118,
+      "likes": 132,
       "matchedGroups": [
         "캄몬스타즈",
         "낭니"
@@ -156,21 +289,21 @@
         "캄몬",
         "낭니"
       ],
-      "order": 184,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "order": 196,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
       "postedText": "21:42",
       "source": "fmkorea",
-      "sourceOrder": 20001,
-      "title": "낭니 : 나도 1600개 받아왔는데 메모장에 최고의 대학 캄몬도 적어주면 안돼? [9]",
+      "sourceOrder": 60000,
+      "title": "낭니 : 나도 1600개 받아왔는데 메모장에 최고의 대학 캄몬도 적어주면 안돼? [10]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176063916&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:01+09:00",
-      "comments": 53,
+      "comments": 54,
       "displayTime": "21:03",
-      "likes": 208,
+      "likes": 226,
       "matchedGroups": [
         "김윤환",
         "코치진"
@@ -180,21 +313,21 @@
         "윤환",
         "사테"
       ],
-      "order": 208,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "order": 220,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
       "postedText": "21:03",
       "source": "fmkorea",
-      "sourceOrder": 20002,
-      "title": "사테) 김윤환 오더, 우리끼리 진행하는걸로.mp4 [53]",
+      "sourceOrder": 60001,
+      "title": "사테) 김윤환 오더, 우리끼리 진행하는걸로.mp4 [54]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176057017&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:01+09:00",
-      "comments": 52,
+      "comments": 54,
       "displayTime": "21:02",
-      "likes": 285,
+      "likes": 299,
       "matchedGroups": [
         "김윤환",
         "코치진"
@@ -203,13 +336,13 @@
         "윤환",
         "사테"
       ],
-      "order": 212,
-      "pageNo": 3,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=3",
+      "order": 224,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
       "postedText": "21:02",
       "source": "fmkorea",
-      "sourceOrder": 20003,
-      "title": "사테 : 일정 변경 없이 갑니다. 윤환이형이 그러고 싶지 않았나봐 [52]",
+      "sourceOrder": 60002,
+      "title": "사테 : 일정 변경 없이 갑니다. 윤환이형이 그러고 싶지 않았나봐 [54]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10176053893&listStyle=webzine",
       "views": 0
     },
@@ -217,7 +350,7 @@
       "collectedAt": "2026-08-06T06:31:02+09:00",
       "comments": 39,
       "displayTime": "20:30",
-      "likes": 141,
+      "likes": 153,
       "matchedGroups": [
         "김윤환",
         "토마토"
@@ -228,12 +361,12 @@
         "토마토",
         "마토"
       ],
-      "order": 156,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "order": 248,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
       "postedText": "20:30",
       "source": "fmkorea",
-      "sourceOrder": 30000,
+      "sourceOrder": 60003,
       "title": "김윤환 소식 듣고 방종하는 토마토.mp4 [39]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175897360&listStyle=webzine",
       "views": 0
@@ -242,7 +375,7 @@
       "collectedAt": "2026-08-06T06:31:02+09:00",
       "comments": 57,
       "displayTime": "20:26",
-      "likes": 286,
+      "likes": 298,
       "matchedGroups": [
         "토마토"
       ],
@@ -250,63 +383,63 @@
         "토마토",
         "마토"
       ],
-      "order": 160,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "order": 252,
+      "pageNo": 7,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=7",
       "postedText": "20:26",
       "source": "fmkorea",
-      "sourceOrder": 30001,
+      "sourceOrder": 60004,
       "title": "토마토 : 갑작스럽게 가게 되어서 미안합니다. 일단 가보겠습니다. [57]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175895695&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
-      "comments": 59,
+      "comments": 61,
       "displayTime": "20:17",
-      "likes": 272,
+      "likes": 282,
       "matchedGroups": [
         "캄몬스타즈"
       ],
       "matchedKeywords": [
         "캄몬"
       ],
-      "order": 172,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
+      "order": 184,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
       "postedText": "20:17",
       "source": "fmkorea",
-      "sourceOrder": 30002,
-      "title": "정중만 대회 개막전 캄몬 관련 풀 발언.mp4 [59]",
+      "sourceOrder": 70000,
+      "title": "정중만 대회 개막전 캄몬 관련 풀 발언.mp4 [61]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175855006&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
       "comments": 4,
-      "displayTime": "20:13",
-      "likes": 43,
+      "displayTime": "2026.08.05",
+      "likes": 46,
       "matchedGroups": [
         "코치진"
       ],
       "matchedKeywords": [
         "배성흠"
       ],
-      "order": 184,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "20:13",
+      "order": 196,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 30003,
+      "sourceOrder": 70001,
       "title": "뉴캣슬)배성흠 ㅈㄴ 빡세다는 박성균 (결과는.승리) [4]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175113242&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
-      "comments": 244,
-      "displayTime": "20:11",
-      "likes": 363,
+      "comments": 253,
+      "displayTime": "2026.08.05",
+      "likes": 384,
       "matchedGroups": [
         "캄몬스타즈",
         "김윤환"
@@ -316,21 +449,21 @@
         "김윤환",
         "윤환"
       ],
-      "order": 188,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "20:11",
+      "order": 200,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 30004,
-      "title": "캄몬 김윤환 공지 [244]",
+      "sourceOrder": 70002,
+      "title": "캄몬 김윤환 공지 [253]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175828583&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
-      "comments": 87,
-      "displayTime": "20:10",
-      "likes": 210,
+      "comments": 88,
+      "displayTime": "2026.08.05",
+      "likes": 218,
       "matchedGroups": [
         "김윤환"
       ],
@@ -338,21 +471,21 @@
         "김윤환",
         "윤환"
       ],
-      "order": 192,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "20:10",
+      "order": 204,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 30005,
-      "title": "김윤환 공지 [87]",
+      "sourceOrder": 70003,
+      "title": "김윤환 공지 [88]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175826425&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
-      "comments": 340,
-      "displayTime": "20:10",
-      "likes": 421,
+      "comments": 346,
+      "displayTime": "2026.08.05",
+      "likes": 444,
       "matchedGroups": [
         "김윤환"
       ],
@@ -360,21 +493,21 @@
         "김윤환",
         "윤환"
       ],
-      "order": 196,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "20:10",
+      "order": 208,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 30006,
-      "title": "김윤환 공지 [340]",
+      "sourceOrder": 70004,
+      "title": "김윤환 공지 [346]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175826704&listStyle=webzine",
       "views": 0
     },
     {
       "collectedAt": "2026-08-06T06:31:02+09:00",
       "comments": 55,
-      "displayTime": "19:55",
-      "likes": 234,
+      "displayTime": "2026.08.05",
+      "likes": 245,
       "matchedGroups": [
         "캄몬스타즈",
         "김윤환",
@@ -385,12 +518,12 @@
         "윤환",
         "지동원"
       ],
-      "order": 208,
-      "pageNo": 4,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=4",
-      "postedText": "19:55",
+      "order": 220,
+      "pageNo": 8,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=8",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 30007,
+      "sourceOrder": 70005,
       "title": "캄몬) 지동원 : 윤환이형은 개인적인 사정이 있구요, 여기서 방종하겠습니다 [55]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175764168&listStyle=webzine",
       "views": 0
@@ -398,8 +531,8 @@
     {
       "collectedAt": "2026-08-06T06:31:03+09:00",
       "comments": 3,
-      "displayTime": "18:02",
-      "likes": 75,
+      "displayTime": "2026.08.05",
+      "likes": 80,
       "matchedGroups": [
         "캄몬스타즈",
         "김윤환",
@@ -411,12 +544,12 @@
         "김민철",
         "민철"
       ],
-      "order": 188,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "18:02",
+      "order": 200,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 40000,
+      "sourceOrder": 80000,
       "title": "캄몬)동원: 형 비트코인캐쉬 한 이유가 뭐야? / 윤환: 아 김민철!!!!ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ [3]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10174852319&listStyle=webzine",
       "views": 0
@@ -424,20 +557,20 @@
     {
       "collectedAt": "2026-08-06T06:31:03+09:00",
       "comments": 31,
-      "displayTime": "17:41",
-      "likes": 124,
+      "displayTime": "2026.08.05",
+      "likes": 126,
       "matchedGroups": [
         "캄몬스타즈"
       ],
       "matchedKeywords": [
         "캄몬"
       ],
-      "order": 192,
-      "pageNo": 5,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=5",
-      "postedText": "17:41",
+      "order": 204,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 40001,
+      "sourceOrder": 80001,
       "title": "캄몬 왜냐맨 공지 [31]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10175279689&listStyle=webzine",
       "views": 0
@@ -445,20 +578,20 @@
     {
       "collectedAt": "2026-08-06T06:31:04+09:00",
       "comments": 21,
-      "displayTime": "15:27",
-      "likes": 88,
+      "displayTime": "2026.08.05",
+      "likes": 90,
       "matchedGroups": [
         "캄몬스타즈"
       ],
       "matchedKeywords": [
         "캄몬"
       ],
-      "order": 160,
-      "pageNo": 6,
-      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=6",
-      "postedText": "15:27",
+      "order": 252,
+      "pageNo": 9,
+      "pageUrl": "https://www.fmkorea.com/index.php?mid=starcraft&sort_index=pop&order_type=desc&page=9",
+      "postedText": "2026.08.05",
       "source": "fmkorea",
-      "sourceOrder": 50000,
+      "sourceOrder": 80002,
       "title": "캄몬 기상 ㅋㅋㅋㅋㅋㅋㅋㅋ [21]",
       "url": "https://www.fmkorea.com/index.php?mid=starcraft&document_srl=10174703493&listStyle=webzine",
       "views": 0
